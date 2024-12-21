@@ -1,0 +1,37 @@
+# modmap:
+#   - name: main keyboard remaps
+#     remap:
+#       CapsLock:
+#         held: CapsLock
+#         alone: Esc
+#         alone_timeout_millis: 150
+
+modmap:
+  - name: numpad remaps 1
+    remap:
+      KEY_LEFT: KEY_KP4 # roate left
+      KEY_RIGHT: KEY_KP6 # roate left
+
+keymap:
+  - name: numpad remaps 2
+    device:
+      only: /dev/input/event3
+    remap:
+      KEY_KP0: Ctrl-Z # undo
+      KEY_KPDOT: Ctrl-Shift-Z # redo
+      KEY_KPPLUS: Ctrl-Alt-Shift-U # flip up/down
+      KEY_TAB: Ctrl-Alt-Shift-L # flip left/right
+      KEY_KP1: KEY_INSERT # new layer
+      KEY_KP2: Ctrl-G # new group
+      # KEY_KP4: Ctrl-Alt-R # roate canvas
+      # KEY_KP5: KEY_KP5 # reset rotation
+      # KEY_KP6: Ctrl-Alt-Shift-B # roate brush
+      KEY_KP3: Ctrl-J # duplicate layer
+      KEY_KP7: Ctrl-L # line tool
+      KEY_KP8: Ctrl-Alt-A # preserve aplha
+      KEY_KP9: Ctrl-Y # colour proofing
+      KEY_KPMINUS: Ctrl-9 # Fit to view
+      KEY_KPASTERISK: Ctrl-0 # Zoom view to 100%
+      KEY_KPSLASH: Ctrl-E # merge selected with below layer
+      KEY_NUMLOCK: T # move tool
+      KEY_BACKSPACE: KEY_DELETE # delete

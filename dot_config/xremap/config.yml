@@ -1,0 +1,19 @@
+keymap:
+  - name: numpad remaps
+    device:
+      only: 'HID 04f3:0635'
+    remap:
+      KEY_KP0: Ctrl-Z # undo
+      KEY_KPDOT: Ctrl-Shift-Z # redo
+      KEY_KPPLUS: Ctrl-Alt-Shift-U # flip up/down
+      KEY_TAB: Ctrl-Alt-Shift-L # flip left/right
+      KEY_KP1: KEY_INSERT # new layer
+      KEY_KP2: Ctrl-G # new group
+      KEY_KP3: Ctrl-J # duplicate layer
+      KEY_KP7: Ctrl-L # line tool
+      KEY_KP8: Ctrl-Alt-A # preserve aplha
+      KEY_KP9: Ctrl-Y # colour proofing
+      KEY_KPMINUS: Ctrl-9 # Fit to view
+      KEY_KPASTERISK: Ctrl-0 # Zoom view to 100%
+      KEY_KPSLASH: Ctrl-E # merge selected with below layer
+      KEY_BACKSPACE: KEY_DELETE # delete
