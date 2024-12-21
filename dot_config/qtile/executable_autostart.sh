@@ -5,8 +5,6 @@
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 dunst &
 udiskie &
-#mpd &
-# streamdeck -n
 playerctld daemon &
 /usr/lib/polkit-gnome/polkit-gnome-autentication-agent-1 &
 
