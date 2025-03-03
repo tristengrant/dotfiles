@@ -3,7 +3,7 @@ export XDG_CONFIG_HOME="/home/tristen/.config"
 export XDG_CACHE_HOME="/home/tristen/.cache"
 export XDG_DATA_HOME="/home/tristen/.local/share"
 
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo || echo "Failed to add Flathub."
+#flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo || echo "Failed to add Flathub."
 
 # General Shortcuts
 alias ls='ls --color=auto'
@@ -68,14 +68,9 @@ alias ff='fastfetch'
 alias vim='nvim'
 alias vi='nvim'
 alias tgsite='cd ~/Github/tristengrant/'
-alias cbcomic='cd ~/Github/catandbotcomic/'
+alias cbcomic='cd ~/Github/catandbot/'
 alias suckless='cd ~/Github/suckless/ && ls'
-
-# Managing dotfiles with stow
-alias stow bash='stow -v -t ~ bash'
-alias stow config='stow -v -t ~/.config config'
-alias stow x='stow -v -t ~ x'
-aloas stow gtk='stow -v -t ~ gtk'
+alias dotfiles='cd ~/Github/dotfiles'
 
 PS1='\[\033[38;5;214m\]\u\[\033[0m\]@\[\033[38;5;82m\]\h\[\033[0m\] \W$ '
 

@@ -10,4 +10,6 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export GTK_USE_PORTAL=1
 export _JAVA_AWT_WM_NONREPARENTING=1 # Fix Java apps in tiling WMs
 export MOZ_ENABLE_WAYLAND=0 # Force Firefox to use X11 (if you switch to Wayland later, remove this)
-export XDG_CURRENT_DESKTOP=Gnome
+export XDG_CURRENT_DESKTOP=DWM
+
+export $(dbus-launch)
