@@ -19,7 +19,6 @@ dwmblocks &
 dunst &
 udiskie &
 syncthing-gtk --hidden &
-#picom --experimental-backends -b
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 clipster -d 2>/dev/null &
 mpd &
