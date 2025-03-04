@@ -1,2 +1,2 @@
 # dotfiles
-My personal Linux dotfiles managed using  [Stow](https://gnu.org/software/stow/).
+Managing them with a bash script that symlinks them. 

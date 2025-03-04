@@ -23,6 +23,7 @@ syncthing-gtk --hidden &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 clipster -d 2>/dev/null &
 mpd &
+otd-daemon &
 
 # Start DWM
 exec dwm
