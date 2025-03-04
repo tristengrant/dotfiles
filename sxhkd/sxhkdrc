@@ -1,0 +1,15 @@
+XF86AudioPlay
+    mpc toggle
+
+XF86AudioNext
+    mpc next && mpc play
+
+XF86AudioPrev
+    mpc prev && mpc play
+
+XF86AudioStop
+    mpc stop
+
+Print
+    flameshot gui -p ~/Pictures/screenshots
+
