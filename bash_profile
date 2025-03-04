@@ -2,4 +2,4 @@
 #export DISPLAY=:0
 export EDITOR=nvim
 
-startx
+#startx
