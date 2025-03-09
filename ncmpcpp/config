@@ -1,1 +1,3 @@
 mpd_music_dir = "/home/tristen/Music"
+lyrics_fetchers ""
+unbind_key "F"

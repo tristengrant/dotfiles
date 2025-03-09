@@ -5,11 +5,10 @@
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
 # Set default cursor
-xsetroot -cursor_name left_ptr  
+xsetroot -cursor_name left_ptr
 
 # Start background applications
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
-dwmblocks &
 dunst &
 udiskie &
 syncthing-gtk --hidden &
@@ -17,8 +16,11 @@ syncthing-gtk --hidden &
 clipster -d 2>/dev/null &
 mpd &
 sxhkd &
-mpc load Favourites && mpc random on && mpc play && mpc pause &
-~/Scripts/nosleep.sh &
+mpc load Favourites && mpc random on && mpc play &
+#~/Scripts/nosleep.sh &
+
+# Delay to ensure that DWM starts up properly before starting dwmblocks
+#dwmblocks &
 
 # Start DWM
 exec dwm

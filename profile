@@ -7,6 +7,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_DATA_HOME="$HOME/.local/share"
 
+# Setting the default terminal for scripts to understand
+export TERMINAL=kitty
+
 # Themes and appearance
 export XCURSOR_THEME=Simp1e-Gruvbox-Dark
 export XCURSOR_SIZE=24

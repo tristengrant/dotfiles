@@ -2,8 +2,7 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 export XDG_CONFIG_HOME="/home/tristen/.config"
 export XDG_CACHE_HOME="/home/tristen/.cache"
 export XDG_DATA_HOME="/home/tristen/.local/share"
-
-#flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo || echo "Failed to add Flathub."
+export BROWSER='firefox'
 
 # General Shortcuts
 alias ls='ls --color=auto'
@@ -70,8 +69,7 @@ alias vi='nvim'
 alias tgsite='cd ~/Github/tristengrant/'
 alias cbcomic='cd ~/Github/catandbot/'
 alias suckless='cd ~/Github/suckless/ && ls'
-alias dotfiles='cd ~/Github/dotfiles'
+alias dotfiles='cd ~/Github/dotfiles/ && ls'
+alias scripts='cd ~/Scripts && ls'
 
 PS1='\[\033[38;5;214m\]\u\[\033[0m\]@\[\033[38;5;82m\]\h\[\033[0m\] \W$ '
-
-export PATH="/home/tristen/Scripts:/home/tristen/Github:/home/tristen/Applications:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
