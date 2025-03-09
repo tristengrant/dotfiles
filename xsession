@@ -17,10 +17,10 @@ clipster -d 2>/dev/null &
 mpd &
 sxhkd &
 mpc load Favourites && mpc random on && mpc play &
-#~/Scripts/nosleep.sh &
+~/Scripts/nosleep.sh &
 
 # Delay to ensure that DWM starts up properly before starting dwmblocks
-#dwmblocks &
+dwmblocks &
 
 # Start DWM
 exec dwm
