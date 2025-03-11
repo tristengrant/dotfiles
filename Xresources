@@ -1,8 +1,0 @@
-Xft.dpi: 96 # Adjust for HiDPI (e.g., 120, 144)
-Xft.antialias: true # Enable font anti-aliasing
-Xft.hinting: true # Enable font hinting
-Xft.rgba: rgb # Subpixel rendering (rgb, bgr, vrgb, vbgr)
-Xft.hintstyle: hintslight # Options: hintnone, hintslight, hintmedium, hintfull
-Xft.lcdfilter: lcddefault # Smoother fonts
-Xcursor.theme: Simp1e-Gruvbox-Dark
-Xcursor.size: 24

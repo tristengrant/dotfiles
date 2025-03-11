@@ -14,5 +14,5 @@ Print
     flameshot gui -p ~/Pictures/screenshots
 
 super + o ; {w,k,f,d, s}
-    {firefox,krita-5.2.9.appimage,thunar,~/Scripts/open-dotfiles.sh,~/Scripts/open-scripts.sh}
+    {zen-browser,krita-5.2.9.appimage,thunar,~/Scripts/open-dotfiles.sh,~/Scripts/open-scripts.sh}
 

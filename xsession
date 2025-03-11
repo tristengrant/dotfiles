@@ -1,8 +1,4 @@
-# Load ~/.profile if it exists
-[ -f ~/.profile ] && . ~/.profile
-
-# Load environment from ~/.Xresources (fixed path)
-[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+#!/bin/sh
 
 # Set default cursor
 xsetroot -cursor_name left_ptr
@@ -11,15 +7,15 @@ xsetroot -cursor_name left_ptr
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 dunst &
 udiskie &
-syncthing-gtk --hidden &
+syncthing --no-desktop &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 clipster -d 2>/dev/null &
 mpd &
 sxhkd &
-mpc load Favourites && mpc random on && mpc play &
-~/Scripts/nosleep.sh &
+mpc load Favourites && mpc random on && mpc play && mpc pause &
+~/Github/scripts/wacom.sh &
 
-# Delay to ensure that DWM starts up properly before starting dwmblocks
+# Start status bar
 dwmblocks &
 
 # Start DWM
