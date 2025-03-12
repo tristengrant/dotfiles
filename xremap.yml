@@ -1,0 +1,21 @@
+keymap:
+  - name: Numpad remapping
+    remap:
+      "KEY_KP0": "CTRL-z" # Undo
+      "KEY_KPDOT": "CTRL-SHIFT-z" # Redo
+      "KEY_KPENTER": "Enter" # Enter
+      "KEY_KP1": "Insert" # New Paint Layer
+      "KEY_KP2": "CTRL-g" # New Group
+      "KEY_KP3": "CTRL-j" # Duplicate Layer/Mask
+      "KEY_TAB": "CTRL-SHIFT-h" # Flip Horizontlly
+      "KEY_KP4": "CTRL-LEFTBRACE" # Rotate Left
+      "KEY_KP5": "CTRL-BACKSLASH" # Reset Rotation
+      "KEY_KP6": "CTRL-RIGHTBRACE" # Rotate Right
+      "KEY_KP7": "CTRL-ALT-SHIFT-l" # Line Tool
+      "KEY_KP8": "CTRL-ALT-SHIFT-a" # Preserve Alpha
+      "KEY_KP9": "CTRL-y" # Soft Proofing (greyscale)
+      "KEY_KPSLASH": "CTRL-e" # Merge Layers
+      "KEY_KPASTERISK": "CTRL-ALT-SHIFT-0" # Zoom to 100%
+      "KEY_KPMINUS": "CTRL-ALT-SHIFT-9" # Fit to window
+      "KEY_KPPLUS": "CTRL-SHIFT-v" # Flip Vertically
+      "KEY_BACKSPACE": "KEY_DELETE" # Delete

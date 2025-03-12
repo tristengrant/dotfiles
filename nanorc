@@ -1,0 +1,10 @@
+set linenumbers       				# Show line numbers
+set numbercolor white,black	 	# Set line number foreground and background
+set softwrap          				# Enable soft line wrapping
+set tabsize 2         				# Set tab width (default is 8)
+set autoindent        				# Auto-indent new lines
+set matchbrackets "()[]{}<>"	# Match brackets
+bind ^S savefile main  				# Ctrl+S to save
+bind ^Q exit all       				# Ctrl+Q to exit
+
+include "/usr/share/nano/*.nanorc"
