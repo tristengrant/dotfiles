@@ -22,4 +22,4 @@ xset s off
 xset -dpms
 
 # Start DWM
-exec dwm
+#exec dwm

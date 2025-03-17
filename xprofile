@@ -15,6 +15,7 @@ export XCURSOR_SIZE=24
 export GTK_THEME=Gruvbox-Material-Dark
 export QT_QPA_PLATFORMTHEME=qt5ct
 export GTK_USE_PORTAL=1
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # Fixes and tweaks
 export _JAVA_AWT_WM_NONREPARENTING=1  # Fix Java apps in tiling WMs

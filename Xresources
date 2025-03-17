@@ -1,0 +1,8 @@
+nsxiv*background: #1d2021				# Gruvbox dark background
+nsxiv*foreground: #ebdbb2				# Gruvbox light foreground (for info text)
+Xft.dpi: 96                     # Set DPI (adjust for HiDPI screens)
+Xft.antialias: 1                # Enable anti-aliasing
+Xft.hinting: 1                  # Enable font hinting
+Xft.rgba: rgb                   # Subpixel rendering (rgb, bgr, vrgb, vbgr)
+Xft.lcdfilter: lcddefault       # LCD filter (default/sharp/legacy)
+Xft.hintstyle: hintfull         # Hinting strength (none/slight/medium/full)
