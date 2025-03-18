@@ -1,4 +1,4 @@
-set linenumbers       				# Show line numbers
+#set linenumbers       				# Show line numbers
 set numbercolor white,black	 	# Set line number foreground and background
 set softwrap          				# Enable soft line wrapping
 set tabsize 2         				# Set tab width (default is 8)
