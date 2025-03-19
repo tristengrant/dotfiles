@@ -1,0 +1,18 @@
+XF86AudioPlay
+    mpc toggle
+
+XF86AudioNext
+    mpc next && mpc play
+
+XF86AudioPrev
+    mpc prev && mpc play
+
+XF86AudioStop
+    mpc stop
+
+Print
+    flameshot gui -p ~/Pictures/screenshots
+
+super + o ; {w,k,f,d, s}
+    {zen-browser,krita-5.2.9.appimage,thunar,~/Scripts/open-dotfiles.sh,~/Scripts/open-scripts.sh}
+

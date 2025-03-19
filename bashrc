@@ -25,37 +25,30 @@ alias zipf='zip -r'    # Create a zip file
 alias mkcd='foo() { mkdir -p "" && cd "" || echo "Failed to create and cd into directory "; }; foo'
 
 # Networking
-alias myip="curl ifconfig.me" # Show public IP
-alias ports='netstat -tulanp' # Show open ports
+alias myip="curl ifconfig.me"                                                                                   # Show public IP
+alias ports='netstat -tulanp'                                                                                   # Show open ports
 alias speedtest='curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -' # Speed test
 
-# System Monitoring
-alias cpu='lscpu' # Show CPU details
-alias mem='free -h'# Show memory usage
-alias disk='df -h' # Show disk usage
-alias du1='du -h --max-depth=1' # Show folder sizes
-alias psme='ps aux | grep tristen' # Show processes of current user
-
 # Package Management (For Arch Linux)
-alias update='sudo pacman -Syu' # Update system
-alias upgrade='sudo pacman -Syyu' # Force refresh and update
-alias install='sudo pacman -S' # Install a package
-alias remove='sudo pacman -Rns' # Remove package and dependencies
-alias orphan='sudo pacman -Qdtq | sudo pacman -Rns -' # Remove orphaned packages
-alias cleanup='sudo pacman -Sc' # Clean package cache
+alias update='sudo pacman -Syu'                                                                                                                                           # Update system
+alias upgrade='sudo pacman -Syyu'                                                                                                                                         # Force refresh and update
+alias install='sudo pacman -S'                                                                                                                                            # Install a package
+alias remove='sudo pacman -Rns'                                                                                                                                           # Remove package and dependencies
+alias orphan='sudo pacman -Qdtq | sudo pacman -Rns -'                                                                                                                     # Remove orphaned packages
+alias cleanup='sudo pacman -Sc'                                                                                                                                           # Clean package cache
 alias update-mirrors='sudo reflector --country Canada --latest 50 --protocol https --sort rate --download-timeout 10 --save /etc/pacman.d/mirrorlist && sudo pacman -Syy' # Update and get fasest Arch mirrors
 alias yay='paru'
 alias aur='paru'
 
 # Misc
 alias ff='fastfetch'
-alias vim ='nvim'
+alias vim='nvim'
 alias vi='nvim'
 alias v='nvim'
-alias tgsite='cd ~/Github/tristengrant/'
-alias cbcomic='cd ~/Github/catandbotcomic/'
-alias suckless='cd ~/Github/suckless/ && ls'
-alias dotfiles='cd ~/Github/dotfiles/ && ls'
+alias tgsite='cd ~/Github/tristengrant'
+alias cbcomic='cd ~/Github/catandbotcomic'
+alias suckless='cd ~/Github/suckless && ls'
+alias dotfiles='cd ~/Github/dotfiles && ls'
 alias scripts='cd ~/Github/scripts && ls'
 
 PS1='\[\033[38;5;214m\]\u\[\033[0m\]@\[\033[38;5;82m\]\h\[\033[0m\] \W$ '
