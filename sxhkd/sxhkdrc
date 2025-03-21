@@ -1,14 +1,14 @@
 XF86AudioPlay
-    playerctl play-pause
+    mpc toggle
 
 XF86AudioNext
-    playerctl next
+    mpc next && mpc play
 
 XF86AudioPrev
-    playerctl previous
+    mpc prev && mpc play
 
 XF86AudioStop
-    playerctl stop
+    mpc stop
 
 Print
     flameshot gui -p ~/Pictures/screenshots
