@@ -1,7 +1,4 @@
-#export QT_QPA_PLATFORMTHEME=qt5ct
-#export XDG_CONFIG_HOME="/home/tristen/.config"
-#export XDG_CACHE_HOME="/home/tristen/.cache"
-#export XDG_DATA_HOME="/home/tristen/.local/share"
+export SDL_AUDIODRIVER=dummy
 
 # General Shortcuts
 alias ls='ls --color=auto'
