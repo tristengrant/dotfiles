@@ -34,8 +34,6 @@ alias remove='sudo pacman -Rns' # Remove package and dependencies
 alias orphan='sudo pacman -Qdtq | sudo pacman -Rns -' # Remove orphaned packages
 alias cleanup='sudo pacman -Sc' # Clean package cache
 alias update-mirrors='sudo reflector --country Canada --latest 50 --protocol https --sort rate --download-timeout 10 --save /etc/pacman.d/mirrorlist && sudo pacman -Syy' # Update and get fasest Arch mirrors
-alias yay='paru'
-alias aur='paru'
 
 # Misc
 alias ff='fastfetch'

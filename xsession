@@ -13,8 +13,8 @@ syncthing --no-browser &
 clipster -d 2>/dev/null &
 mpd &
 sxhkd &
-~/Github/scripts/wacom.sh &
-xremap --device "HID 04f3:0635" ~/Github/dotfiles/xremap.yml &
+~/Github/scripts/xppen.sh &
+#xremap --device "HID 04f3:0635" ~/Github/dotfiles/xremap.yml &
 
 # Auto setting music to favourites playlist at startup
 mpc load favourites && mpc random on && mpc play && mpc pause &
