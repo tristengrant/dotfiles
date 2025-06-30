@@ -26,7 +26,7 @@ xrandr --dpi 96
 
 # Set environment variables
 export TERMINAL=st
-export EDITOR=zeditor
+export EDITOR=nvim
 export BROWSER=firefox
 export DEFAULT_FILE_MANAGER=thunar
 
@@ -34,7 +34,7 @@ export DEFAULT_FILE_MANAGER=thunar
 export LANG=en_CA.UTF-8
 export LC_ALL=en_CA.UTF-8
 
-xrandr --output DisplayPort-1 --mode 2560x1440 --pos 1200x480 --rotate normal  --output DisplayPort-2 --mode 1920x1200 --pos 0x0 --rotate left
+xrandr --output DisplayPort-2 --mode 2560x1440 --pos 1200x480 --rotate normal  --output DisplayPort-3 --mode 1920x1200 --pos 0x0 --rotate left
 
 # Path
 export PATH="$HOME/Github/scripts:$HOME/Github:$HOME/Applications:/usr/local/sbin:/usr/local/bin:/usr/bin"
