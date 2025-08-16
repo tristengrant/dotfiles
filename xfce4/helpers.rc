@@ -1,7 +1,0 @@
-TerminalEmulator=kitty
-WebBrowser=firefox
-FileManager=thunar
-TextEditor=nvim
-MediaPlayer=mpv
-ImageViewer=sxiv
-MailReader=firefox --new-tab "https://fastmail.com/mail"

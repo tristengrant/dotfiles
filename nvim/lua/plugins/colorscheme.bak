@@ -1,0 +1,17 @@
+-- ~/.config/nvim/lua/plugins/colorscheme.lua
+
+return {
+  -- Add the vscode.nvim plugin
+  {
+    "Mofiqul/vscode.nvim",
+    lazy = false, -- This is important for themes to load on startup
+    priority = 1000, -- Ensures it loads before other plugins
+    opts = {
+      -- You can add options here, like enabling transparent background
+      -- transparent_background = true,
+    },
+    config = function()
+      vim.cmd("colorscheme vscode")
+    end,
+  },
+}
