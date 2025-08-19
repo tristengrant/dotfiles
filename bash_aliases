@@ -1,3 +1,8 @@
+# NeoVIM
+alias v="nvim"
+alias sv="sudo nvim"
+alias vim="nvim"
+
 # Git aliases
 alias ga="git add ."
 alias gp="git push"
