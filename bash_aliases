@@ -1,7 +1,14 @@
 # NeoVIM
 alias v="nvim"
 alias sv="sudo nvim"
+alias nv="nvim"
+alias neovim="nvim"
 alias vim="nvim"
+
+alias blog="nvim ~/Github/tristengrant-website/src/content/blog"
+
+# Xmonad
+alias dmenu_run='dmenu_run -fn "JetBrains Mono-11" -nb "#222222" -nf "#bbbbbb" -sb "#ffcc00" -sf "#222222"'
 
 # Git aliases
 alias ga="git add ."

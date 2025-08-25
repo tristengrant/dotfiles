@@ -1,0 +1,23 @@
+-- lua/plugins/mini-snippets.lua
+return {
+  "echasnovski/mini.snippets",
+  version = "*",
+  config = function()
+    local snippets = require("mini.snippets")
+
+    snippets.setup({
+      mappings = {
+        expand = "<Tab>",
+        jump_next = "<Tab>",
+        jump_prev = "<S-Tab>",
+      },
+    })
+
+    -- Load snippets from files
+    snippets.snippets = {
+      global = require("snippets.global"),
+      markdown = require("snippets.markdown"),
+      -- you can keep adding lua = require("snippets.lua") etc.
+    }
+  end,
+}
