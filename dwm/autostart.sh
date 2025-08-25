@@ -1,5 +1,4 @@
 #!/bin/sh
 slstatus &
-picom &
-dunst &
-feh --randomize --bg-scale ~/Pictures/wallpaper/* &
+#picom --vsync --legacy-backends --active-opacity 1.0 &
+feh --randomize --bg-fill ~/Pictures/wallpapers/* &
