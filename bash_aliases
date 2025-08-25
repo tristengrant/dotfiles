@@ -1,3 +1,8 @@
+# APT
+alias sai="sudo apt install"
+alias saud="sudo apt update"
+alias saug="sudo apt upgrade"
+
 # NeoVIM
 alias v="nvim"
 alias sv="sudo nvim"

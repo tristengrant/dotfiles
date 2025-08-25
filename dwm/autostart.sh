@@ -1,4 +1,5 @@
 #!/bin/sh
 slstatus &
-picom --backend xrender --vsync &
+picom &
+dunst &
 feh --randomize --bg-scale ~/Pictures/wallpaper/* &
