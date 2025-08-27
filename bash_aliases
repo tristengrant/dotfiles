@@ -9,13 +9,14 @@ alias sv="sudo nvim"
 alias nv="nvim"
 alias neovim="nvim"
 alias vim="nvim"
-alias blog="nvim ~/Github/tristengrant-website/src/content/blog"
+alias blog="nvim ~/Github/tristengrant-website/src/content/notes/blog"
+alias notes="nvim ~/Github/tristengrant-website/src/content/notes"
 
 # Xmonad
 alias dmenu_run='dmenu_run -fn "JetBrains Mono-11" -nb "#222222" -nf "#bbbbbb" -sb "#ffcc00" -sf "#222222"'
 
 # DWM
-alias pth='patch -p1 < '
+alias dwm-patch='patch -p1 < '
 
 # Git aliases
 alias ga="git add ."
@@ -29,17 +30,20 @@ alias pushit="git push"
 alias ls='ls --color=auto'
 alias ll='ls -alFh'
 alias c='clear'
+alias cls="clear && ls"
+alias cla="clear && ls -la"
 
 # Directory
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias scripts='cd ~/Github/scripts/ && ls -la'
-alias dotfiles='cd ~/Github/dotfiles/ && ls -la'
-alias tgsite='cd ~/Github/tristengrant-website/ && ls -la'
-alias cbsrc='cd ~/Github/catandbot-sources/ && ls -la'
-alias cbsite='cd ~/Github/catandbot-website/ && ls -la'
-alias readme='cd ~/Github/readme/ && ls -la'
+alias scripts='cd ~/Github/scripts/'
+alias dotfiles='cd ~/Github/dotfiles/'
+alias tgsite='cd ~/Github/tristengrant-website/'
+alias cbsrc='cd ~/Github/catandbot-sources/'
+alias cbsite='cd ~/Github/catandbot-website/'
+alias readme='cd ~/Github/readme/'
+alias suckless='cd ~/Github/suckless/'
 
 # File management
 alias md='mkdir -p'

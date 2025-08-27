@@ -100,6 +100,15 @@ if [ -f ~/.bash_aliases ]; then
   . ~/.bash_aliases
 fi
 
+# Create new Git Branch
+gab() {
+  git checkout -b "$1"
+}
+# Switch to a Git Branch
+gsb() {
+  git checkout "$1"
+}
+
 alias genalt="genalt_pc.sh"
 
 # enable programmable completion features (you don't need to enable
