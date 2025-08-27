@@ -2,30 +2,27 @@
 
 Managing them with a bash script that symlinks everything where it needs to go.
 
----
-
 ## Naming Conventions for ~/ Folder
 
 This document outlines the naming conventions used in my home directory for consistency and ease of use.
 
----
-
 ### 1. Top-Level Directories
 
 - GUI-friendly directories (created by default in Debian/GNOME/KDE) keep **Capitalized** names:
-  - `Desktop`
+  - `Desktop` (optional - for desktop shortcuts)
   - `Documents`
   - `Downloads`
-  - `Music`
+  - `Music` (optional - for music player files)
   - `Pictures`
   - `Videos`
 - Personal directories I create for work or development are **lowercase**:
   - `projects`
+    - art
+    - music
+    - photos
   - `github`
 
----
-
-### 2. Folders Inside Personal Directories
+### 2. Sub-Directories: Folders Inside Folders
 
 - Use **lowercase letters**.
 - Separate words with **hyphens (-)**.
@@ -33,8 +30,6 @@ This document outlines the naming conventions used in my home directory for cons
   - `cat-and-bot`
   - `my-assets`
   - `another-project`
-
----
 
 ### 3. Files
 
@@ -46,16 +41,12 @@ This document outlines the naming conventions used in my home directory for cons
   - `config_file.json`
   - `readme_file.md`
 
----
-
 ### 4. Hidden Files / Dotfiles
 
 - Configuration files or folders are prefixed with a dot (`.`):
   - `.bashrc`
   - `.config/`
   - `.gitconfig`
-
----
 
 ### 5. Summary
 
