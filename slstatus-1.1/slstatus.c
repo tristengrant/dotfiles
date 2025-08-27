@@ -5,7 +5,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
+#include <unistd.h>
 #include <X11/Xlib.h>
+#include <sys/stat.h>
 
 #include "arg.h"
 #include "slstatus.h"
@@ -23,30 +25,33 @@ static Display *dpy;
 
 #include "config.h"
 
-static void
-terminate(const int signo)
-{
+/* --- Default modules --- */
+static struct arg modules[3];
+static size_t modules_len = 0;
+static unsigned int update_interval;
+
+/* --- Helpers to detect battery and mixer --- */
+static int file_exists(const char *path) {
+	struct stat st;
+	return stat(path, &st) == 0;
+}
+
+/* --- Signal handler --- */
+static void terminate(const int signo) {
 	if (signo != SIGUSR1)
 		done = 1;
 }
 
-static void
-difftimespec(struct timespec *res, struct timespec *a, struct timespec *b)
-{
+static void difftimespec(struct timespec *res, struct timespec *a, struct timespec *b) {
 	res->tv_sec = a->tv_sec - b->tv_sec - (a->tv_nsec < b->tv_nsec);
-	res->tv_nsec = a->tv_nsec - b->tv_nsec +
-	               (a->tv_nsec < b->tv_nsec) * 1E9;
+	res->tv_nsec = a->tv_nsec - b->tv_nsec + (a->tv_nsec < b->tv_nsec) * 1E9;
 }
 
-static void
-usage(void)
-{
+static void usage(void) {
 	die("usage: %s [-v] [-s] [-1]", argv0);
 }
 
-int
-main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
 	struct sigaction act;
 	struct timespec start, current, diff, intspec, wait;
 	size_t i, len;
@@ -58,7 +63,6 @@ main(int argc, char *argv[])
 	ARGBEGIN {
 	case 'v':
 		die("slstatus-"VERSION);
-		break;
 	case '1':
 		done = 1;
 		/* FALLTHROUGH */
@@ -72,6 +76,26 @@ main(int argc, char *argv[])
 	if (argc)
 		usage();
 
+	/* --- Detect available modules --- */
+	modules_len = 0;
+	update_interval = interval; // default from config.h
+
+	// Check for battery
+	if (file_exists("/sys/class/power_supply/BAT0/capacity")) {
+		modules[modules_len++] = (struct arg){ battery_perc, "Bat_%s%%  ", "BAT0" };
+		update_interval = 2000; // slower update for battery
+	}
+
+	// Check for ALSA mixer (desktop/office)
+	if (file_exists("/dev/mixer")) {
+		modules[modules_len++] = (struct arg){ vol_perc, "Vol_%s%%  ", "/dev/mixer" };
+		update_interval = 1000; // faster update for volume
+	}
+
+	// Always add datetime
+	modules[modules_len++] = (struct arg){ datetime, "%s", "%a_%b_%d  %I:%M%P " };
+
+	/* --- Setup signal handlers --- */
 	memset(&act, 0, sizeof(act));
 	act.sa_handler = terminate;
 	sigaction(SIGINT,  &act, NULL);
@@ -79,6 +103,7 @@ main(int argc, char *argv[])
 	act.sa_flags |= SA_RESTART;
 	sigaction(SIGUSR1, &act, NULL);
 
+	/* --- Open X display if needed --- */
 	if (!sflag && !(dpy = XOpenDisplay(NULL)))
 		die("XOpenDisplay: Failed to open display");
 
@@ -87,12 +112,13 @@ main(int argc, char *argv[])
 			die("clock_gettime:");
 
 		status[0] = '\0';
-		for (i = len = 0; i < LEN(args); i++) {
-			if (!(res = args[i].func(args[i].args)))
+		for (i = len = 0; i < modules_len; i++) {
+			res = modules[i].func(modules[i].args);
+			if (!res)
 				res = unknown_str;
 
 			if ((ret = esnprintf(status + len, sizeof(status) - len,
-			                     args[i].fmt, res)) < 0)
+			                     modules[i].fmt, res)) < 0)
 				break;
 
 			len += ret;
@@ -114,14 +140,14 @@ main(int argc, char *argv[])
 				die("clock_gettime:");
 			difftimespec(&diff, &current, &start);
 
-			intspec.tv_sec = interval / 1000;
-			intspec.tv_nsec = (interval % 1000) * 1E6;
+			intspec.tv_sec = update_interval / 1000;
+			intspec.tv_nsec = (update_interval % 1000) * 1E6;
 			difftimespec(&wait, &intspec, &diff);
 
 			if (wait.tv_sec >= 0 &&
 			    nanosleep(&wait, NULL) < 0 &&
 			    errno != EINTR)
-					die("nanosleep:");
+				die("nanosleep:");
 		}
 	} while (!done);
 

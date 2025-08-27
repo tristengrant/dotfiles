@@ -1,0 +1,3 @@
+#!/bin/sh
+# pick a random wallpaper from ~/Pictures/wallpapers
+feh --bg-scale "$(find ~/Pictures/wallpapers/* -type f | shuf -n1)"
