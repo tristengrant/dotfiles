@@ -1,7 +1,10 @@
 # APT
 alias sai="sudo apt install"
-alias saud="sudo apt update"
+alias sar="sudo apt remove"
+alias saup="sudo apt update"
 alias saug="sudo apt upgrade"
+alias saar="sudo apt autoremove"
+alias saac="sudo apt autoclean"
 
 # NeoVIM
 alias v="nvim"
@@ -9,11 +12,6 @@ alias sv="sudo nvim"
 alias nv="nvim"
 alias neovim="nvim"
 alias vim="nvim"
-alias blog="nvim ~/Github/tristengrant-website/src/content/notes/blog"
-alias notes="nvim ~/Github/tristengrant-website/src/content/notes"
-
-# Xmonad
-alias dmenu_run='dmenu_run -fn "JetBrains Mono-11" -nb "#222222" -nf "#bbbbbb" -sb "#ffcc00" -sf "#222222"'
 
 # DWM
 alias dwm-patch='patch -p1 < '
@@ -37,13 +35,12 @@ alias cla="clear && ls -la"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias scripts='cd ~/Github/scripts/'
-alias dotfiles='cd ~/Github/dotfiles/'
-alias tgsite='cd ~/Github/tristengrant-website/'
-alias cbsrc='cd ~/Github/catandbot-sources/'
-alias cbsite='cd ~/Github/catandbot-website/'
-alias readme='cd ~/Github/readme/'
-alias suckless='cd ~/Github/suckless/'
+alias scripts='cd ~/projects/scripts/'
+alias dotfiles='cd ~/projects/dotfiles/'
+alias tgsite='cd ~/projects/tristengrant-website/'
+alias cbsrc='cd ~/projects/catandbot-sources/'
+alias cbsite='cd ~/projects/catandbot-website/'
+alias suckless='cd ~/projects/suckless/'
 
 # File management
 alias md='mkdir -p'
