@@ -1,0 +1,61 @@
+#!/bin/sh
+
+# Disable xdg-desktop-portal lookups (faster GTK apps, Thunar especially)
+export GTK_USE_PORTAL=0
+
+# Set X resources (fonts, colors, etc)
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+
+# Qt app theming
+export GTK_THEME=Adwaita:dark
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Disable X11 audio bell (loud noise)
+xset b off
+
+# Ensure XDG user dirs exist
+xdg-user-dirs-update
+
+# Start XDG desktop portal
+/usr/libexec/xdg-desktop-portal &
+/usr/libexec/xdg-desktop-portal-gtk &
+
+# Desktop background
+feh --bg-fill --randomize ~/pictures/wallpapers/* &
+
+# Syncthing
+syncthing --no-browser &
+
+# Status bar
+slstatus &
+
+# Notifications (optional)
+dunst &
+
+# Network Icon
+nm-applet &
+
+# Auto-mount removable disks
+udiskie &
+
+# Keyring
+eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
+export SSH_AUTH_SOCK
+export $(gnome-keyring-daemon --start --components=secrets)
+export $(gnome-keyring-daemon --start --components=ssh)
+export $(gnome-keyring-daemon --start --components=gpg)
+
+# XFCE helpers (Thunar integration + settings)
+/usr/libexec/xfce4/xfconfd &
+/usr/libexec/xfce4/xfsettingsd &
+
+# Thunar daemon (faster launches)
+thunar --daemon &
+
+# Make sure ~/bin is in the path
+export PATH="$HOME/bin:$PATH"
+
+# Tablet script here if needed
+
+# Start dwm (last line, no &)
+exec dwm

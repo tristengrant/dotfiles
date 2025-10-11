@@ -1,0 +1,34 @@
+[[language]]
+name = "html"
+language-servers = ["vscode-html-language-server"]
+formatter = { command = "prettier", args = ["--stdin-filepath", "{file}"] }
+auto-format = true
+indent = { tab-width = 2, unit = " " }
+
+[[language]]
+name = "css"
+language-servers = ["vscode-css-language-server"]
+formatter = { command = "stylelint", args = ["--fix", "--stdin", "--stdin-filename", "{file}"] }
+auto-format = true
+indent = { tab-width = 2, unit = " " }
+
+[[language]]
+name = "scss"
+language-servers = ["vscode-css-language-server"]
+formatter = { command = "stylelint", args = ["--fix", "--stdin", "--stdin-filename", "{file}"] }
+auto-format = true
+indent = { tab-width = 2, unit = " " }
+
+[[language]]
+name = "javascript"
+language-servers = ["typescript-language-server"]
+formatter = { command = "prettier", args = ["--stdin-filepath", "{file}"] }
+auto-format = true
+indent = { tab-width = 2, unit = " " }
+
+[[language]]
+name = "typescript"
+language-servers = ["typescript-language-server"]
+formatter = { command = "prettier", args = ["--stdin-filepath", "{file}"] }
+auto-format = true
+indent = { tab-width = 2, unit = " " }
