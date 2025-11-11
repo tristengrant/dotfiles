@@ -1,0 +1,7 @@
+export GTK_USE_PORTAL=0
+export GTK_THEME=Adwaita:dark
+export QT_QPA_PLATFORMTHEME=qt5ct
+export PATH="$HOME/bin:$PATH"
+
+# X resources
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources

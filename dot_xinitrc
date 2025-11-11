@@ -21,7 +21,7 @@ xdg-user-dirs-update
 /usr/libexec/xdg-desktop-portal-gtk &
 
 # Desktop background
-feh --bg-fill --randomize ~/pictures/wallpapers/* &
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
 # Syncthing
 syncthing --no-browser &
