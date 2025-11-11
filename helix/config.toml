@@ -5,22 +5,28 @@ line-number = "relative"
 mouse = true
 cursorline = true
 scrolloff = 5
-rulers = [80]                # visual guide at 80 chars (good for Hugo content)
 auto-save = true
 completion-trigger-len = 1
 auto-pairs = true
-insert-final-newline = true  # avoids "no newline at EOF" diffs
+insert-final-newline = true
+clipboard-provider = "x-clip"
+middle-click-paste = true
+
+[editor.whitespace]
+render = "none"
 
 [editor.soft-wrap]
 enable = true
-wrap-at-text-width = true    # wrap long Markdown/HTML lines visually
-wrap-indicator = "↩ "        # shows a small symbol for wrapped lines (optional)
-max-indent-retain = 80       # keeps indentation aligned for long wrapped lines
 
 [editor.statusline]
 left = ["mode", "spinner"]
 center = ["file-name"]
 right = ["version-control", "diagnostics", "position-percentage", "position"]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
 
 [editor.file-picker]
 hidden = false
