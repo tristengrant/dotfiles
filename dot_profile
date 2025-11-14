@@ -27,3 +27,4 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export BROWSER=/home/tristen/.local/bin/helium
+. "$HOME/.cargo/env"
