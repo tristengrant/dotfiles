@@ -1,61 +1,64 @@
 #!/bin/sh
 
-# Disable xdg-desktop-portal lookups (faster GTK apps, Thunar especially)
+# Display and DPI setup
+xrandr --dpi 96
+autorandr --change
+
+# GTK/Qt theming
 export GTK_USE_PORTAL=0
-
-# Set X resources (fonts, colors, etc)
-[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
-
-# Qt app theming
-export GTK_THEME=Adwaita:dark
+export GTK_THEME="Orchis-Grey-Dark"
+export ICON_THEME="Colloid-Grey-Dracula-Dark"
 export QT_QPA_PLATFORMTHEME=qt5ct
 
-# Disable X11 audio bell (loud noise)
+# Cursor
+export XCURSOR_THEME=Adwaita
+export XCURSOR_SIZE=24
+
+# Ensure ~/bin is in PATH
+export PATH="$HOME/bin:$PATH"
+
+# Load X resources (fonts, colors, etc.)
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+
+# Disable bell, DPMS, and screen blanking
 xset b off
+xset -dpms
+xset s noblank
+# Set default pointer
+xsetroot -cursor_name left_ptr
 
-# Ensure XDG user dirs exist
+# XDG user dirs
 xdg-user-dirs-update
-
-# Start XDG desktop portal
-/usr/libexec/xdg-desktop-portal &
-/usr/libexec/xdg-desktop-portal-gtk &
-
-# Desktop background
-feh --bg-fill --randomize ~/Pictures/wallpapers/* &
-
-# Syncthing
-syncthing --no-browser &
-
-# Status bar
-slstatus &
-
-# Notifications (optional)
-dunst &
-
-# Network Icon
-nm-applet &
-
-# Auto-mount removable disks
-udiskie &
 
 # Keyring
 eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
 export SSH_AUTH_SOCK
-export $(gnome-keyring-daemon --start --components=secrets)
-export $(gnome-keyring-daemon --start --components=ssh)
-export $(gnome-keyring-daemon --start --components=gpg)
 
-# XFCE helpers (Thunar integration + settings)
+# Polkit authentication agent
+lxpolkit &
+
+# Compositor
+picom --experimental-backends -b
+
+# Wallpaper
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
+
+# Background services
+syncthing --no-browser &
+udiskie &
+nm-applet &
+slstatus &
+dunst &
+
+# Thunar helper
+thunar --daemon &
+
+# XFCE helper daemons for GTK settings
 /usr/libexec/xfce4/xfconfd &
 /usr/libexec/xfce4/xfsettingsd &
 
-# Thunar daemon (faster launches)
-thunar --daemon &
+# Tablet setup (if needed)
+# ~/bin/tablet_setup.sh &
 
-# Make sure ~/bin is in the path
-export PATH="$HOME/bin:$PATH"
-
-# Tablet script here if needed
-
-# Start dwm (last line, no &)
+# Start window manager
 exec dwm

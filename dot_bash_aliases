@@ -9,11 +9,6 @@ alias sv="sudo nvim"
 alias nv="nvim"
 alias neovim="nvim"
 alias vim="nvim"
-alias blog="nvim ~/Github/tristengrant-website/src/content/notes/blog"
-alias notes="nvim ~/Github/tristengrant-website/src/content/notes"
-
-# Xmonad
-alias dmenu_run='dmenu_run -fn "JetBrains Mono-11" -nb "#222222" -nf "#bbbbbb" -sb "#ffcc00" -sf "#222222"'
 
 # DWM
 alias dwm-patch='patch -p1 < '
@@ -37,13 +32,11 @@ alias cla="clear && ls -la"
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias scripts='cd ~/Github/scripts/'
-alias dotfiles='cd ~/Github/dotfiles/'
-alias tgsite='cd ~/Github/tristengrant-website/'
-alias cbsrc='cd ~/Github/catandbot-sources/'
-alias cbsite='cd ~/Github/catandbot-website/'
-alias readme='cd ~/Github/readme/'
-alias suckless='cd ~/Github/suckless/'
+alias scripts='cd ~/Projects/scripts/'
+alias dotfiles='cd ~/Projects/dotfiles/'
+alias web='cd ~/Projects/web/ && ll'
+alias readme='cd ~/Projects/readme/'
+alias suckless='cd ~/Projects/suckless/'
 
 # File management
 alias md='mkdir -p'

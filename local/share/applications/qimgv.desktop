@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=qimgv
+Exec=qimgv %F
+Icon=qimgv
+MimeType=image/jpeg;image/png;image/webp;
+Categories=Graphics;Viewer;
+Terminal=false
