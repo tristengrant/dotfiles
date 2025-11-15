@@ -127,5 +127,4 @@ export LTEX_CONFIG="$HOME/.config/helix/ltex-settings.json"
 
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/ltex-ls-plus:$PATH"
-export PATH="$HOME/go/bin:$PATH"
 export PATH="$HOME/Projects/scripts:$PATH"
