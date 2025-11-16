@@ -27,9 +27,6 @@ xset s noblank
 # Set default pointer
 xsetroot -cursor_name left_ptr
 
-# XDG user dirs
-xdg-user-dirs-update
-
 # Keyring
 eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
 export SSH_AUTH_SOCK
@@ -41,7 +38,7 @@ lxpolkit &
 picom --experimental-backends -b
 
 # Wallpaper
-feh --bg-fill --randomize ~/Pictures/wallpapers/* &
+feh --bg-fill --randomize ~/pictures/wallpapers/* &
 
 # Background services
 syncthing --no-browser &
