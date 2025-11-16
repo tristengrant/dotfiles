@@ -20,10 +20,6 @@ export PATH="$HOME/bin:$PATH"
 # Load X resources (fonts, colors, etc.)
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
-# Disable bell, DPMS, and screen blanking
-xset b off
-xset -dpms
-xset s noblank
 # Set default pointer
 xsetroot -cursor_name left_ptr
 
@@ -31,8 +27,11 @@ xsetroot -cursor_name left_ptr
 eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
 export SSH_AUTH_SOCK
 
+# Wait until the network is actually online
+nm-online -q --timeout=15
+
 # Polkit authentication agent
-lxpolkit &
+/usr/bin/lxpolkit &
 
 # Compositor
 picom --experimental-backends -b
@@ -57,5 +56,12 @@ thunar --daemon &
 # Tablet setup (if needed)
 # ~/bin/tablet_setup.sh &
 
+# Force disable screen blanking
+sleep 0.5
+xset b off
+xset s off
+xset s noblank
+xset -dpms
+
 # Start window manager
-(sleep 2; exec dwm)
+exec dwm
