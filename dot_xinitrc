@@ -61,4 +61,4 @@ thunar --daemon &
 # ~/bin/tablet_setup.sh &
 
 # Start window manager
-exec dwm
+(sleep 2; exec dwm)

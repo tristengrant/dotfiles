@@ -27,4 +27,7 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 
 export BROWSER=/home/tristen/.local/bin/helium
-. "$HOME/.cargo/env"
+
+if [[ -z $DISPLAY ]] && [[ $(tty) == /dev/tty1 ]]; then
+    exec startx
+fi
