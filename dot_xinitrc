@@ -43,7 +43,8 @@ feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 syncthing --no-browser &
 udiskie &
 nm-applet &
-slstatus &
+#slstatus &
+dwmblocks &
 dunst &
 
 # Start MPD
