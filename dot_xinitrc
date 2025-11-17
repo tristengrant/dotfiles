@@ -37,7 +37,7 @@ nm-online -q --timeout=15
 picom --experimental-backends -b
 
 # Wallpaper
-feh --bg-fill --randomize ~/pictures/wallpapers/* &
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
 # Background services
 syncthing --no-browser &
