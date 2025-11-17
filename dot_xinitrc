@@ -34,7 +34,7 @@ nm-online -q --timeout=15
 /usr/bin/lxpolkit &
 
 # Compositor
-picom --experimental-backends -b
+picom --config ~/.config/picom/picom.conf -b
 
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
@@ -46,9 +46,7 @@ nm-applet &
 #slstatus &
 dwmblocks &
 dunst &
-
-# Start MPD
-mpd --no-daemon ~/.config/mpd/mpd.conf
+mpd ~/.config/mpd/mpd.conf &
 
 # Start sxhkd for media key handling
 pgrep -x sxhkd >/dev/null || sxhkd &
