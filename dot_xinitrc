@@ -46,6 +46,9 @@ nm-applet &
 slstatus &
 dunst &
 
+# Start MPD
+mpd --no-daemon ~/.config/mpd/mpd.conf
+
 # Thunar helper
 thunar --daemon &
 
