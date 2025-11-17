@@ -50,6 +50,9 @@ dunst &
 # Start MPD
 mpd --no-daemon ~/.config/mpd/mpd.conf
 
+# Start sxhkd for media key handling
+pgrep -x sxhkd >/dev/null || sxhkd &
+
 # Thunar helper
 thunar --daemon &
 
