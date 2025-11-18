@@ -33,9 +33,6 @@ nm-online -q --timeout=15
 # Polkit authentication agent
 /usr/bin/lxpolkit &
 
-# Compositor
-picom --config ~/.config/picom/picom.conf -b
-
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
