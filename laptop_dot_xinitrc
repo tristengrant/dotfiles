@@ -1,0 +1,69 @@
+#!/bin/sh
+
+# Display and DPI setup
+xrandr --dpi 96
+autorandr --change
+
+# GTK/Qt theming
+export GTK_USE_PORTAL=0
+export GTK_THEME="Orchis-Grey-Dark"
+export ICON_THEME="Colloid-Grey-Dracula-Dark"
+export QT_QPA_PLATFORMTHEME=qt5ct
+
+# Cursor
+export XCURSOR_THEME=Adwaita
+export XCURSOR_SIZE=24
+
+# Ensure ~/bin is in PATH
+export PATH="$HOME/bin:$PATH"
+
+# Load X resources (fonts, colors, etc.)
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+
+# Set default pointer
+xsetroot -cursor_name left_ptr
+
+# Keyring
+eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
+export SSH_AUTH_SOCK
+
+# Wait until the network is actually online
+nm-online -q --timeout=15
+
+# Polkit authentication agent
+/usr/bin/lxpolkit &
+
+# Wallpaper
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
+
+# Background services
+syncthing --no-browser &
+udiskie &
+nm-applet &
+#slstatus &
+dwmblocks &
+dunst &
+mpd ~/.config/mpd/mpd.conf &
+
+# Start sxhkd for media key handling
+pgrep -x sxhkd >/dev/null || sxhkd &
+
+# Thunar helper
+thunar --daemon &
+
+# XFCE helper daemons for GTK settings
+/usr/libexec/xfce4/xfconfd &
+/usr/libexec/xfce4/xfsettingsd &
+
+# Tablet setup (if needed)
+# ~/bin/tablet_setup.sh &
+
+# Force disable screen blanking
+sleep 0.5
+xset b off
+xset s off
+xset s noblank
+xset -dpms
+
+# Start window manager
+exec dwm
