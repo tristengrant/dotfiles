@@ -38,15 +38,9 @@ feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
 # Background services
 syncthing --no-browser &
-udiskie &
-nm-applet &
-#slstatus &
 dwmblocks &
 dunst &
 mpd ~/.config/mpd/mpd.conf &
-
-# Start sxhkd for media key handling
-pgrep -x sxhkd >/dev/null || sxhkd &
 
 # Thunar helper
 thunar --daemon &
