@@ -32,6 +32,9 @@ nm-online -q --timeout=15
 # Polkit authentication agent
 /usr/bin/lxpolkit &
 
+# Keymapping for laptop volume control
+xmodmap ~/.Xmodmap
+
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
