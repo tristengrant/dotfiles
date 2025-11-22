@@ -32,9 +32,6 @@ nm-online -q --timeout=15
 # Polkit authentication agent
 /usr/bin/lxpolkit &
 
-# Keymapping for laptop volume control
-xmodmap ~/.Xmodmap
-
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
@@ -56,6 +53,12 @@ xset b off
 xset s off
 xset s noblank
 xset -dpms
+
+# Remap CapsLock to Escape (default)
+xmodmap -e "clear Lock" -e "keycode 66 = Control_L"
+
+# Make it Escape when tapped
+xcape -e 'Control_L=Escape' &
 
 # Start window manager
 exec dwm
