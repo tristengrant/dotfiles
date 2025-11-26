@@ -1,9 +1,4 @@
-include ~/.config/kitty/themes/alabaster.conf
-
-# Override background
-#background #000000
-#foreground #d0d0d0
-#tab_bar_background #1A1A1A
+include melangey.conf
 
 allow_remote_control yes
 enable_audio_bell    no
