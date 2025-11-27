@@ -1,10 +1,27 @@
--- Colour Theme: alabaster.nvim - GitHub https://github.com/p00f/alabaster.nvim
+-- Colour Theme: kanagawa.nvim - GitHub https://github.com/rebelot/kanagawa.nvim
 
 return {
-  "p00f/alabaster.nvim",
-	lazy = false,
-	priority = 1000,
-	config = function()
-    vim.cmd("colorscheme alabaster")
+  "rebelot/kanagawa.nvim",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require('kanagawa').setup({
+      compile = false,              -- optional, speeds up loading if true
+      transparent = true,           -- <<== make background transparent
+      terminalColors = true,        -- keep terminal colors in sync
+
+      colors = {
+        theme = {
+          all = {
+            ui = {
+                  bg_gutter = "none"
+                }
+              }
+            }
+          }
+    })
+
+    vim.cmd("colorscheme kanagawa-dragon")
   end,
 }
+
