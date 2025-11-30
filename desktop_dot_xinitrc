@@ -42,9 +42,6 @@ dwmblocks &
 dunst &
 mpd ~/.config/mpd/mpd.conf &
 
-# Thunar helper
-thunar --daemon &
-
 # XFCE helper daemons for GTK settings
 /usr/libexec/xfce4/xfconfd &
 /usr/libexec/xfce4/xfsettingsd &
