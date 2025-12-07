@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=nsxiv
+Comment=Simple X Image Viewer (fork of sxiv)
+Exec=nsxiv -z fit %F
+Icon=nsxiv
+Terminal=false
+Type=Application
+Categories=Graphics;Viewer;
+MimeType=image/jpeg;image/png;image/gif;image/bmp;image/webp;
