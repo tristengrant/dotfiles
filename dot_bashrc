@@ -87,6 +87,7 @@ alias gpl="git pull"
 
 # PATH additions
 export PATH="$HOME/Projects/scripts:$PATH"
+export PATH="$HOME/Applications:$PATH"
 
 # Custom functions (lightweight)
 mkcd() { mkdir -p "$1" && cd "$1"; }
