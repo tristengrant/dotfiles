@@ -1,0 +1,68 @@
+# Default zoom mode
+set zoom_mode fit       # Fit images to window by default
+
+# Enable mouse wheel zoom
+set scroll_zoom true
+
+# Show filename in window title
+set titlebar true
+
+# Enable smooth panning
+set pan_speed 15
+
+# Hide window border by default (useful for floating windows in dwm)
+set border_width 0
+
+# Set background color
+set background_color "#000000"  # black background
+
+# Keyboard Shortcuts
+
+# Navigation
+map j next              # Next image
+map k prev              # Previous image
+map h left              # Pan left
+map l right             # Pan right
+
+# Zoom
+map = zoom_in
+map - zoom_out
+map 0 zoom_reset        # Reset zoom to fit
+
+# Rotation
+map r rotate_cw
+map R rotate_ccw
+
+# Slideshow (useful if you ever want it)
+map s slideshow_toggle
+map q quit              # Quit
+
+# File operations (rename, move, etc.)
+map x delete            # Delete image (move to trash if configured)
+map y copy              # Copy image to clipboard/destination
+map m move              # Move image
+
+# Fullscreen toggle
+map f fullscreen_toggle
+
+# Optional: open image in external editor (e.g., st + feh, or gimp)
+map e spawn st -e gimp %f
+
+# Mouse wheel scroll
+mbind 4 next
+mbind 5 prev
+
+# Drag to pan
+mbind 1 pan_start
+
+# Right-click context menu (optional)
+mbind 3 menu_toggle
+
+# Automatically load all images in directory
+set auto_load true
+
+# Enable thumbnails if you want quick previews in a separate window
+set thumb_preview false
+
+# Exit after last image in slideshow
+set exit_on_last true
