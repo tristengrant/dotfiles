@@ -1,8 +1,7 @@
 export GTK_USE_PORTAL=0
-export GTK_THEME=Orchis-Grey-Dark
-export ICON_THEME=Colloid-Grey-Dracula-Dark
-export QT_QPA_PLATFORMTHEME=qt5ct
-export PATH="$HOME/bin:$PATH"
+export GTK_THEME=Breeze-Dark
+export ICON_THEME=Adwaita
+export QT_QPA_PLATFORMTHEME=gtk
 
 # X resources
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources

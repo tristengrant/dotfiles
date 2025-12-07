@@ -6,32 +6,22 @@ autorandr --change
 
 # GTK/Qt theming
 export GTK_USE_PORTAL=0
-export GTK_THEME="Orchis-Grey-Dark"
-export ICON_THEME="Colloid-Grey-Dracula-Dark"
-export QT_QPA_PLATFORMTHEME=qt5ct
+export GTK_THEME="Breeze-Dark"
+export ICON_THEME="Adwaits"
+export QT_QPA_PLATFORMTHEME=gtk
 
 # Cursor
 export XCURSOR_THEME=Adwaita
 export XCURSOR_SIZE=24
 
-# Ensure ~/bin is in PATH
-export PATH="$HOME/bin:$PATH"
+# Ensure ~/.local/bin is in PATH
+export PATH="$HOME/.local/bin:$PATH"
 
 # Load X resources (fonts, colors, etc.)
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 
 # Set default pointer
 xsetroot -cursor_name left_ptr
-
-# Keyring
-eval "$(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg)"
-export SSH_AUTH_SOCK
-
-# Wait until the network is actually online
-nm-online -q --timeout=15
-
-# Polkit authentication agent
-/usr/bin/lxpolkit &
 
 # Wallpaper
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
@@ -41,13 +31,10 @@ syncthing --no-browser &
 dwmblocks &
 dunst &
 mpd ~/.config/mpd/mpd.conf &
-
-# XFCE helper daemons for GTK settings
-/usr/libexec/xfce4/xfconfd &
-/usr/libexec/xfce4/xfsettingsd &
+picom --config ~/.config/picom/picom.conf &
 
 # Tablet setup (if needed)
-# ~/bin/tablet_setup.sh &
+~/Projects/scripts/cintiq &
 
 # Force disable screen blanking
 sleep 0.5
