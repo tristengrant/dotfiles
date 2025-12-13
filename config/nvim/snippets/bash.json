@@ -1,0 +1,20 @@
+{
+  "bash_shebang": {
+    "prefix": "bash",
+    "body": [
+      "#!/usr/bin/env bash",
+      "",
+      "set -euo pipefail",
+      "",
+      "$1"
+    ]
+  },
+  "bash_shebang2": {
+    "prefix": "bash_posix",
+    "body": [
+      "#!/bin/sh",
+      "",
+      "$1"
+    ]
+  }
+}
