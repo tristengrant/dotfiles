@@ -1,0 +1,44 @@
+#!/bin/sh
+
+# Display and DPI setup
+xrandr --dpi 96
+autorandr --change
+
+# GTK/Qt theming
+export GTK_USE_PORTAL=0
+export GTK_THEME="Breeze-Dark"
+export ICON_THEME="Adwaits"
+export QT_QPA_PLATFORMTHEME=gtk
+
+# Cursor
+export XCURSOR_THEME=Adwaita
+export XCURSOR_SIZE=24
+
+# Ensure ~/.local/bin is in PATH
+export PATH="$HOME/.local/bin:$PATH"
+
+# Load X resources (fonts, colors, etc.)
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+
+# Set default pointer
+xsetroot -cursor_name left_ptr
+
+# Wallpaper
+feh --bg-fill --randomize ~/Pictures/wallpapers/* &
+
+# Background services
+syncthing --no-browser &
+dwmblocks &
+dunst &
+mpd ~/.config/mpd/mpd.conf &
+picom --config ~/.config/picom/picom.conf &
+
+# Force disable screen blanking
+sleep 0.5
+xset b off
+xset s off
+xset s noblank
+xset -dpms
+
+# Start window manager
+exec dwm

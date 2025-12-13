@@ -27,16 +27,12 @@ xsetroot -cursor_name left_ptr
 feh --bg-fill --randomize ~/Pictures/wallpapers/* &
 
 # Background services
-nm-applet &
+#nm-applet &
 syncthing --no-browser &
 dwmblocks &
 dunst &
-#mpd ~/.config/mpd/mpd.conf &
 picom --config ~/.config/picom/picom.conf &
 kanata -q -n -c ~/.config/kanata/config.toml &
-
-# Tablet setup (if needed)
-#~/Projects/scripts/cintiq &
 
 # Force disable screen blanking
 sleep 0.5
