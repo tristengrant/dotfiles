@@ -35,7 +35,10 @@ syncthing --no-browser &
 dwmblocks &
 dunst &
 picom --config ~/.config/picom/picom.conf &
-kanata -q -n -c ~/.config/kanata/config.toml &
+
+# Remap capslock - hold = ctrl. tap = esc.
+setxkbmap -option ctrl:nocaps
+xcape -e 'Control_L=Escape'
 
 # Force disable screen blanking
 sleep 0.5
