@@ -85,9 +85,6 @@ alias gac="git add . && git commit -m"
 alias pushit="git push"
 alias gpl="git pull"
 
-# Arch
-alias rmo="sudo pacman -Rns $(pacman -Qdtq)"
-
 # PATH additions
 export PATH="$HOME/Projects/scripts:$PATH"
 export PATH="$HOME/Applications:$PATH"
