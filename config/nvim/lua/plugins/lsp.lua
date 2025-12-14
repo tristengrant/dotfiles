@@ -169,6 +169,13 @@ return {
 					[vim.diagnostic.severity.INFO] = "󰋽 ",
 					[vim.diagnostic.severity.HINT] = "󰌶 ",
 				},
+				-- Make diagnostic sign backgrounds transparent
+				vim.cmd([[
+				  highlight! DiagnosticSignError   guibg=NONE
+				  highlight! DiagnosticSignWarn    guibg=NONE
+				  highlight! DiagnosticSignInfo    guibg=NONE
+				  highlight! DiagnosticSignHint    guibg=NONE
+				]]),
 			},
 			virtual_text = {
 				source = "if_many",

@@ -40,4 +40,4 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 10
 
 -- Disable commandline until it is needed.
-vim.opt.cmdheight = 0
+--vim.opt.cmdheight = 0

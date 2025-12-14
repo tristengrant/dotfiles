@@ -1,0 +1,24 @@
+return {
+	"nyoom-engineering/oxocarbon.nvim",
+	config = function()
+		vim.cmd("colorscheme oxocarbon")
+		vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+		vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+		vim.api.nvim_set_hl(0, "NormalNC", { bg = "none" })
+
+		-- Cursor colors
+		vim.opt.guicursor = {
+			"n-v-c:block-CursorNormal",
+			"i:ver25-CursorInsert",
+			"r-cr:hor20-CursorReplace",
+			"o:hor50-CursorOperator",
+		}
+
+		vim.cmd([[
+            highlight CursorNormal     guifg=NONE guibg=#BBBBBB
+            highlight CursorInsert     guifg=NONE guibg=#EEEEEE
+            highlight CursorReplace    guifg=NONE guibg=#444444
+            highlight CursorOperator   guifg=NONE guibg=#444444
+        ]])
+	end,
+}
