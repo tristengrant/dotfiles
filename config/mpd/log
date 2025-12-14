@@ -17919,3 +17919,35 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-13T17:00:10 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
 2025-12-13T17:00:10 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
 2025-12-13T17:00:10 player: problems opening audio device while playing "Blur/Blur/Blur_Blur_10_I’m Just a Killer for Your Love.mp3"
+2025-12-14T15:14:15 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:14:15 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:14:15 player: problems opening audio device while playing "Blur/Blur/Blur_Blur_11_Look Inside America.mp3"
+2025-12-14T15:15:40 player: played "Blur/Blur/Blur_Blur_11_Look Inside America.mp3"
+2025-12-14T15:21:48 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2025-12-14T15:29:36 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_05_Old Man Kensey.flac"
+2025-12-14T15:33:15 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_06_Can’t Get There From Here.flac"
+2025-12-14T15:38:11 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2025-12-14T15:39:03 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:39:03 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:39:03 player: problems opening audio device while playing "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2025-12-14T15:44:04 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_12_Crazy.flac"
+2025-12-14T15:44:48 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:44:48 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:44:48 player: problems opening audio device while playing "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_12_Crazy.flac"
+2025-12-14T15:49:37 player: played "R.E.M/Murmur/R.E.M._Murmur_05_Moral Kiosk.flac"
+2025-12-14T15:55:09 player: played "R.E.M/Murmur/R.E.M._Murmur_02_Pilgrimage.flac"
+2025-12-14T15:57:49 player: played "R.E.M/Murmur/R.E.M._Murmur_03_Laughing.flac"
+2025-12-14T15:58:30 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:58:30 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T15:58:30 player: problems opening audio device while playing "R.E.M/Murmur/R.E.M._Murmur_03_Laughing.flac"
+2025-12-14T16:02:14 player: played "R.E.M/Murmur/R.E.M._Murmur_04_Talk About the Passion.flac"
+2025-12-14T16:05:47 player: played "R.E.M/Murmur/R.E.M._Murmur_05_Moral Kiosk.flac"
+2025-12-14T16:12:52 player: played "R.E.M/Murmur/R.E.M._Murmur_07_Catapult.flac"
+2025-12-14T16:17:46 player: played "R.E.M/Murmur/R.E.M._Murmur_10_Shaking Through.flac"
+2025-12-14T16:18:41 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T16:18:41 exception: Failed to open "My ALSA Device" (alsa); Error opening ALSA device "default"; snd_pcm_hw_params() failed: No such file or directory
+2025-12-14T16:18:41 player: problems opening audio device while playing "R.E.M/Murmur/R.E.M._Murmur_10_Shaking Through.flac"
+2025-12-14T16:24:05 player: played "R.E.M/Murmur/R.E.M._Murmur_04_Talk About the Passion.flac"
+2025-12-14T16:38:29 player: played "R.E.M/Murmur/R.E.M._Murmur_13_There She Goes Again.flac"
+2025-12-14T16:38:39 player: played "R.E.M/Murmur/R.E.M._Murmur_14_9-9 live.flac"
+2025-12-14T16:42:28 config: option "restore_paused" on line 20 was not recognized

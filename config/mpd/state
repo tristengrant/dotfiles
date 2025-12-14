@@ -1,9 +1,9 @@
-sw_volume: 98
-audio_device_state:1:My ALSA Device
+sw_volume: 100
+audio_device_state:1:PulseAudio
 state: pause
-current: 11
-time: 91.361
-random: 0
+current: 24
+time: 75.438
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -12,19 +12,50 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Blur/Blur/Blur_Blur_12_Strange News From Another Star.mp3
-1:Blur/Blur/Blur_Blur_11_Look Inside America.mp3
-2:Blur/Blur/Blur_Blur_02_Song 2.mp3
-3:Blur/Blur/Blur_Blur_03_Country Sad Ballad Man.mp3
-4:Blur/Blur/Blur_Blur_15_Dancehall.mp3
-5:Blur/Blur/Blur_Blur_13_Movin’ On.mp3
-6:Blur/Blur/Blur_Blur_04_M.O.R.mp3
-7:Blur/Blur/Blur_Blur_01_Beetlebum.mp3
-8:Blur/Blur/Blur_Blur_09_Chinese Bombs.mp3
-9:Blur/Blur/Blur_Blur_14_Essex Dogs.mp3
-10:Blur/Blur/Blur_Blur_08_Death of a Party.mp3
-11:Blur/Blur/Blur_Blur_10_I’m Just a Killer for Your Love.mp3
-12:Blur/Blur/Blur_Blur_07_You’re So Great.mp3
-13:Blur/Blur/Blur_Blur_05_On Your Own.mp3
-14:Blur/Blur/Blur_Blur_06_Theme From Retro.mp3
+0:R.E.M/Murmur/R.E.M._Murmur_01_Radio Free Europe.flac
+1:R.E.M/Murmur/R.E.M._Murmur_02_Pilgrimage.flac
+2:R.E.M/Murmur/R.E.M._Murmur_03_Laughing.flac
+3:R.E.M/Murmur/R.E.M._Murmur_04_Talk About the Passion.flac
+4:R.E.M/Murmur/R.E.M._Murmur_05_Moral Kiosk.flac
+5:R.E.M/Murmur/R.E.M._Murmur_06_Perfect Circle.flac
+6:R.E.M/Murmur/R.E.M._Murmur_07_Catapult.flac
+7:R.E.M/Murmur/R.E.M._Murmur_08_Sitting Still.flac
+8:R.E.M/Murmur/R.E.M._Murmur_09_9-9.flac
+9:R.E.M/Murmur/R.E.M._Murmur_10_Shaking Through.flac
+10:R.E.M/Murmur/R.E.M._Murmur_11_We Walk.flac
+11:R.E.M/Murmur/R.E.M._Murmur_12_West of the Fields.flac
+12:R.E.M/Murmur/R.E.M._Murmur_13_There She Goes Again.flac
+13:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_02_Maps and Legends.flac
+14:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac
+15:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_04_Life and How to Live It.flac
+16:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_05_Old Man Kensey.flac
+17:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_06_Can’t Get There From Here.flac
+18:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_07_Green Grow the Rushes.flac
+19:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_08_Kohoutek.flac
+20:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_09_Auctioneer Another Engine.flac
+21:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_10_Good Advices.flac
+22:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_11_Wendell Gee.flac
+23:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_12_Crazy.flac
+24:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_13_Burning Hell.flac
+25:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_14_Bandwagon.flac
+26:Radiohead/In Rainbows/Radiohead_In Rainbows_01_15 Step.flac
+27:Radiohead/In Rainbows/Radiohead_In Rainbows_02_Bodysnatchers.flac
+28:Radiohead/In Rainbows/Radiohead_In Rainbows_03_Nude.flac
+29:Radiohead/In Rainbows/Radiohead_In Rainbows_04_Weird Fishes Arpeggi.flac
+30:Radiohead/In Rainbows/Radiohead_In Rainbows_05_All I Need.flac
+31:Radiohead/In Rainbows/Radiohead_In Rainbows_06_Faust Arp.flac
+32:Radiohead/In Rainbows/Radiohead_In Rainbows_07_Reckoner.flac
+33:Radiohead/In Rainbows/Radiohead_In Rainbows_08_House of Cards.flac
+34:Radiohead/In Rainbows/Radiohead_In Rainbows_09_Jigsaw Falling Into Place.flac
+35:Radiohead/In Rainbows/Radiohead_In Rainbows_10_Videotape.flac
+36:Radiohead/Kid A/Radiohead_Kid A_01_Everything in Its Right Place.flac
+37:Radiohead/Kid A/Radiohead_Kid A_02_Kid A.flac
+38:Radiohead/Kid A/Radiohead_Kid A_03_The National Anthem.flac
+39:Radiohead/Kid A/Radiohead_Kid A_04_How to Disappear Completely.flac
+40:Radiohead/Kid A/Radiohead_Kid A_05_Treefingers.flac
+41:Radiohead/Kid A/Radiohead_Kid A_06_Optimistic.flac
+42:Radiohead/Kid A/Radiohead_Kid A_07_In Limbo.flac
+43:Radiohead/Kid A/Radiohead_Kid A_08_Idioteque.flac
+44:Radiohead/Kid A/Radiohead_Kid A_09_Morning Bell.flac
+45:Radiohead/Kid A/Radiohead_Kid A_10_Motion Picture Soundtrack.flac
 playlist_end
