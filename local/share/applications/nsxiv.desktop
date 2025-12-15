@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=nsxiv
-Comment=Lightweight image viewer for X11, optimized for tiling WMs
-Exec=nsxiv -z fit -b %F
-Icon=nsxiv
-Terminal=false
-Type=Application
-Categories=Graphics;Viewer;
-MimeType=image/jpeg;image/png;image/gif;image/bmp;image/webp;
