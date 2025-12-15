@@ -1,5 +1,5 @@
 # Default zoom mode
-set zoom_mode fit       # Fit images to window by default
+set zoom_mode fit
 
 # Enable mouse wheel zoom
 set scroll_zoom true
