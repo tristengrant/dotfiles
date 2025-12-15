@@ -1,0 +1,5 @@
+[user]
+	name = Tristen Grant
+	email = hello@tristengrant.com
+[credential]
+	helper = store
