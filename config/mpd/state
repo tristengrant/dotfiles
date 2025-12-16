@@ -1,9 +1,9 @@
-sw_volume: 98
-audio_device_state:1:My ALSA Device
+sw_volume: 100
+audio_device_state:1:PulseAudio
 state: pause
-current: 11
-time: 91.361
-random: 0
+current: 69
+time: 94.782
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -12,19 +12,192 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Blur/Blur/Blur_Blur_12_Strange News From Another Star.mp3
-1:Blur/Blur/Blur_Blur_11_Look Inside America.mp3
-2:Blur/Blur/Blur_Blur_02_Song 2.mp3
-3:Blur/Blur/Blur_Blur_03_Country Sad Ballad Man.mp3
-4:Blur/Blur/Blur_Blur_15_Dancehall.mp3
-5:Blur/Blur/Blur_Blur_13_Movin’ On.mp3
-6:Blur/Blur/Blur_Blur_04_M.O.R.mp3
-7:Blur/Blur/Blur_Blur_01_Beetlebum.mp3
-8:Blur/Blur/Blur_Blur_09_Chinese Bombs.mp3
-9:Blur/Blur/Blur_Blur_14_Essex Dogs.mp3
-10:Blur/Blur/Blur_Blur_08_Death of a Party.mp3
-11:Blur/Blur/Blur_Blur_10_I’m Just a Killer for Your Love.mp3
-12:Blur/Blur/Blur_Blur_07_You’re So Great.mp3
-13:Blur/Blur/Blur_Blur_05_On Your Own.mp3
-14:Blur/Blur/Blur_Blur_06_Theme From Retro.mp3
+0:R.E.M/Murmur/R.E.M._Murmur_01_Radio Free Europe.flac
+1:R.E.M/Murmur/R.E.M._Murmur_02_Pilgrimage.flac
+2:R.E.M/Murmur/R.E.M._Murmur_03_Laughing.flac
+3:R.E.M/Murmur/R.E.M._Murmur_04_Talk About the Passion.flac
+4:R.E.M/Murmur/R.E.M._Murmur_05_Moral Kiosk.flac
+5:R.E.M/Murmur/R.E.M._Murmur_06_Perfect Circle.flac
+6:R.E.M/Murmur/R.E.M._Murmur_07_Catapult.flac
+7:R.E.M/Murmur/R.E.M._Murmur_08_Sitting Still.flac
+8:R.E.M/Murmur/R.E.M._Murmur_09_9-9.flac
+9:R.E.M/Murmur/R.E.M._Murmur_10_Shaking Through.flac
+10:R.E.M/Murmur/R.E.M._Murmur_12_West of the Fields.flac
+11:R.E.M/Murmur/R.E.M._Murmur_13_There She Goes Again.flac
+12:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_02_Maps and Legends.flac
+13:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac
+14:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_04_Life and How to Live It.flac
+15:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_05_Old Man Kensey.flac
+16:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_06_Can’t Get There From Here.flac
+17:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_07_Green Grow the Rushes.flac
+18:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_08_Kohoutek.flac
+19:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_09_Auctioneer Another Engine.flac
+20:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_10_Good Advices.flac
+21:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_11_Wendell Gee.flac
+22:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_12_Crazy.flac
+23:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_13_Burning Hell.flac
+24:R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_14_Bandwagon.flac
+25:Radiohead/In Rainbows/Radiohead_In Rainbows_01_15 Step.flac
+26:Radiohead/In Rainbows/Radiohead_In Rainbows_02_Bodysnatchers.flac
+27:Radiohead/In Rainbows/Radiohead_In Rainbows_03_Nude.flac
+28:Radiohead/In Rainbows/Radiohead_In Rainbows_04_Weird Fishes Arpeggi.flac
+29:Radiohead/In Rainbows/Radiohead_In Rainbows_05_All I Need.flac
+30:Radiohead/In Rainbows/Radiohead_In Rainbows_06_Faust Arp.flac
+31:Radiohead/In Rainbows/Radiohead_In Rainbows_07_Reckoner.flac
+32:Radiohead/In Rainbows/Radiohead_In Rainbows_08_House of Cards.flac
+33:Radiohead/In Rainbows/Radiohead_In Rainbows_09_Jigsaw Falling Into Place.flac
+34:Radiohead/In Rainbows/Radiohead_In Rainbows_10_Videotape.flac
+35:Radiohead/Kid A/Radiohead_Kid A_01_Everything in Its Right Place.flac
+36:Radiohead/Kid A/Radiohead_Kid A_02_Kid A.flac
+37:Radiohead/Kid A/Radiohead_Kid A_03_The National Anthem.flac
+38:Radiohead/Kid A/Radiohead_Kid A_04_How to Disappear Completely.flac
+39:Radiohead/Kid A/Radiohead_Kid A_05_Treefingers.flac
+40:Radiohead/Kid A/Radiohead_Kid A_06_Optimistic.flac
+41:Radiohead/Kid A/Radiohead_Kid A_07_In Limbo.flac
+42:Radiohead/Kid A/Radiohead_Kid A_08_Idioteque.flac
+43:Radiohead/Kid A/Radiohead_Kid A_09_Morning Bell.flac
+44:Radiohead/Kid A/Radiohead_Kid A_10_Motion Picture Soundtrack.flac
+45:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_01_Begin the Begin.flac
+46:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_02_These Days.flac
+47:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_03_Fall on Me.flac
+48:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_04_Cuyahoga.flac
+49:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_05_Hyena.flac
+50:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_06_Underneath the Bunker.flac
+51:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_07_The Flowers of Guatemala.flac
+52:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_08_I Believe.flac
+53:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_09_What If We Give It Away.flac
+54:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_10_Just a Touch.flac
+55:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_11_Swan Swan H.flac
+56:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_12_Superman.flac
+57:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_13_Tired of Singing Trouble.flac
+58:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_14_Rotary Ten.flac
+59:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_15_Toys in the Attic.flac
+60:R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_17_Dream All I Have to Do.flac
+61:R.E.M/Green/R.E.M._Green_01_Pop Song 89.flac
+62:R.E.M/Green/R.E.M._Green_02_Get Up.flac
+63:R.E.M/Green/R.E.M._Green_03_You Are the Everything.flac
+64:R.E.M/Green/R.E.M._Green_04_Stand.flac
+65:R.E.M/Green/R.E.M._Green_05_World Leader Pretend.flac
+66:R.E.M/Green/R.E.M._Green_06_The Wrong Child.flac
+67:R.E.M/Green/R.E.M._Green_07_Orange Crush.flac
+68:R.E.M/Green/R.E.M._Green_08_Turn You Inside‐Out.flac
+69:R.E.M/Green/R.E.M._Green_09_Hairshirt.flac
+70:R.E.M/Green/R.E.M._Green_10_I Remember California.flac
+71:R.E.M/Green/R.E.M._Green_11_untitled.flac
+72:R.E.M/Out of Time/R.E.M._Out of Time_01_Radio Song.flac
+73:R.E.M/Out of Time/R.E.M._Out of Time_02_Losing My Religion.flac
+74:R.E.M/Out of Time/R.E.M._Out of Time_03_Low.flac
+75:R.E.M/Out of Time/R.E.M._Out of Time_04_Near Wild Heaven.flac
+76:R.E.M/Out of Time/R.E.M._Out of Time_05_Endgame.flac
+77:R.E.M/Out of Time/R.E.M._Out of Time_06_Shiny Happy People.flac
+78:R.E.M/Out of Time/R.E.M._Out of Time_07_Belong.flac
+79:R.E.M/Out of Time/R.E.M._Out of Time_08_Half a World Away.flac
+80:R.E.M/Out of Time/R.E.M._Out of Time_09_Texarkana.flac
+81:R.E.M/Out of Time/R.E.M._Out of Time_10_Country Feedback.flac
+82:R.E.M/Out of Time/R.E.M._Out of Time_11_Me in Honey.flac
+83:R.E.M/Reckoning/R.E.M._Reckoning_01_Harborcoat.flac
+84:R.E.M/Reckoning/R.E.M._Reckoning_02_7 Chinese Bros.flac
+85:R.E.M/Reckoning/R.E.M._Reckoning_03_So. Central Rain.flac
+86:R.E.M/Reckoning/R.E.M._Reckoning_04_Pretty Persuasion.flac
+87:R.E.M/Reckoning/R.E.M._Reckoning_05_Time After Time Annelise.flac
+88:R.E.M/Reckoning/R.E.M._Reckoning_06_Second Guessing.flac
+89:R.E.M/Reckoning/R.E.M._Reckoning_07_Letter Never Sent.flac
+90:R.E.M/Reckoning/R.E.M._Reckoning_08_Camera.flac
+91:R.E.M/Reckoning/R.E.M._Reckoning_09_Don’t Go Back to Rockville.flac
+92:R.E.M/Reckoning/R.E.M._Reckoning_10_Little America.flac
+93:R.E.M/Reckoning/R.E.M._Reckoning_11_Wind Out with Friends.flac
+94:R.E.M/Reckoning/R.E.M._Reckoning_14_Tighten Up.flac
+95:R.E.M/Reckoning/R.E.M._Reckoning_15_Moon River.flac
+96:R.E.M/Automatic for the People/R.E.M._Automatic for the People_01_Drive.flac
+97:R.E.M/Automatic for the People/R.E.M._Automatic for the People_02_Try Not to Breathe.flac
+98:R.E.M/Automatic for the People/R.E.M._Automatic for the People_03_The Sidewinder Sleeps Tonite.flac
+99:R.E.M/Automatic for the People/R.E.M._Automatic for the People_04_Everybody Hurts.flac
+100:R.E.M/Automatic for the People/R.E.M._Automatic for the People_05_New Orleans Instrumental No. 1.flac
+101:R.E.M/Automatic for the People/R.E.M._Automatic for the People_06_Sweetness Follows.flac
+102:R.E.M/Automatic for the People/R.E.M._Automatic for the People_07_Monty Got a Raw Deal.flac
+103:R.E.M/Automatic for the People/R.E.M._Automatic for the People_08_Ignoreland.flac
+104:R.E.M/Automatic for the People/R.E.M._Automatic for the People_09_Star Me Kitten.flac
+105:R.E.M/Automatic for the People/R.E.M._Automatic for the People_10_Man on the Moon.flac
+106:R.E.M/Automatic for the People/R.E.M._Automatic for the People_11_Nightswimming.flac
+107:R.E.M/Automatic for the People/R.E.M._Automatic for the People_12_Find the River.flac
+108:R.E.M/Monster/R.E.M._Monster_01_What’s the Frequency Kenneth.flac
+109:R.E.M/Monster/R.E.M._Monster_02_Crush With Eyeliner.flac
+110:R.E.M/Monster/R.E.M._Monster_03_King of Comedy.flac
+111:R.E.M/Monster/R.E.M._Monster_04_I Don’t Sleep I Dream.flac
+112:R.E.M/Monster/R.E.M._Monster_05_Star 69.flac
+113:R.E.M/Monster/R.E.M._Monster_06_Strange Currencies.flac
+114:R.E.M/Monster/R.E.M._Monster_07_Tongue.flac
+115:R.E.M/Monster/R.E.M._Monster_08_Bang and Blame.flac
+116:R.E.M/Monster/R.E.M._Monster_09_I Took Your Name.flac
+117:R.E.M/Monster/R.E.M._Monster_10_Let Me In.flac
+118:R.E.M/Monster/R.E.M._Monster_11_Circus Envy.flac
+119:R.E.M/Monster/R.E.M._Monster_12_You.flac
+120:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_01_How the West Was Won and Where It Got Us.flac
+121:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_02_The Wake‐Up Bomb.flac
+122:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_03_New Test Leper.flac
+123:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_04_Undertow.flac
+124:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_05_E‐Bow the Letter.flac
+125:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_06_Leave.flac
+126:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_07_Departure.flac
+127:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_08_Bittersweet Me.flac
+128:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_09_Be Mine.flac
+129:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_10_Binky the Doormat.flac
+130:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_11_Zither.flac
+131:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_12_So Fast So Numb.flac
+132:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_13_Low Desert.flac
+133:R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_14_Electrolite.flac
+134:R.E.M/Document/R.E.M._Document_01_Finest Worksong.flac
+135:R.E.M/Document/R.E.M._Document_02_Welcome to the Occupation.flac
+136:R.E.M/Document/R.E.M._Document_03_Exhuming McCarthy.flac
+137:R.E.M/Document/R.E.M._Document_04_Disturbance at the Heron House.flac
+138:R.E.M/Document/R.E.M._Document_05_Strange.flac
+139:R.E.M/Document/R.E.M._Document_06_It’s the End of the World as We Know It and I Feel Fine.flac
+140:R.E.M/Document/R.E.M._Document_07_The One I Love.flac
+141:R.E.M/Document/R.E.M._Document_08_Fireplace.flac
+142:R.E.M/Document/R.E.M._Document_09_Lightnin’ Hopkins.flac
+143:R.E.M/Document/R.E.M._Document_10_King of Birds.flac
+144:R.E.M/Document/R.E.M._Document_11_Oddfellows Local 151.flac
+145:R.E.M/Document/R.E.M._Document_13_Last Date.flac
+146:R.E.M/Up/R.E.M._Up_01_Airportman.flac
+147:R.E.M/Up/R.E.M._Up_02_Lotus.flac
+148:R.E.M/Up/R.E.M._Up_03_Suspicion.flac
+149:R.E.M/Up/R.E.M._Up_04_Hope.flac
+150:R.E.M/Up/R.E.M._Up_05_At My Most Beautiful.flac
+151:R.E.M/Up/R.E.M._Up_06_The Apologist.flac
+152:R.E.M/Up/R.E.M._Up_07_Sad Professor.flac
+153:R.E.M/Up/R.E.M._Up_08_You’re in the Air.flac
+154:R.E.M/Up/R.E.M._Up_09_Walk Unafraid.flac
+155:R.E.M/Up/R.E.M._Up_10_Why Not Smile.flac
+156:R.E.M/Up/R.E.M._Up_11_Daysleeper.flac
+157:R.E.M/Up/R.E.M._Up_12_Diminished I’m Not Over You.flac
+158:R.E.M/Up/R.E.M._Up_13_Parakeet.flac
+159:R.E.M/Up/R.E.M._Up_14_Falls to Climb.flac
+160:R.E.M/Reveal/R.E.M._Reveal_01_The Lifting.flac
+161:R.E.M/Reveal/R.E.M._Reveal_02_I’ve Been High.flac
+162:R.E.M/Reveal/R.E.M._Reveal_03_All the Way to Reno You’re Gonna Be a Star.flac
+163:R.E.M/Reveal/R.E.M._Reveal_04_She Just Wants to Be.flac
+164:R.E.M/Reveal/R.E.M._Reveal_05_Disappear.flac
+165:R.E.M/Reveal/R.E.M._Reveal_06_Saturn Return.flac
+166:R.E.M/Reveal/R.E.M._Reveal_07_Beat a Drum.flac
+167:R.E.M/Reveal/R.E.M._Reveal_08_Imitation of Life.flac
+168:R.E.M/Reveal/R.E.M._Reveal_09_Summer Turns to High.flac
+169:R.E.M/Reveal/R.E.M._Reveal_10_Chorus and the Ring.flac
+170:R.E.M/Reveal/R.E.M._Reveal_11_I’ll Take the Rain.flac
+171:R.E.M/Reveal/R.E.M._Reveal_12_Beachball.flac
+172:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_01_Losing a Whole Year.flac
+173:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_02_Narcolepsy.flac
+174:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_03_Semi‐Charmed Life.flac
+175:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_04_Jumper.flac
+176:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_05_Graduate.flac
+177:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_06_How’s It Going to Be.flac
+178:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_07_Thanks a Lot.flac
+179:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_08_Burning Man.flac
+180:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_09_Good for You.flac
+181:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_10_London.flac
+182:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_11_I Want You.flac
+183:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_12_The Background.flac
+184:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_13_Motorcycle Drive By.flac
+185:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_14_God of Wine.flac
+186:Third Eye Blind/Blue/Third Eye Blind_Blue_01_Anything.flac
+187:Third Eye Blind/Out of the Vein/Third Eye Blind_Out of the Vein_01_Faster.flac
 playlist_end
