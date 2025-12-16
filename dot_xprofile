@@ -3,5 +3,8 @@ export GTK_THEME=Breeze-Dark
 export ICON_THEME=Adwaita
 export QT_QPA_PLATFORMTHEME=gtk
 
+export QT_QPA_PLATFORM=xcb
+export QT_X11_NO_MITSHM=1
+
 # X resources
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
