@@ -18030,3 +18030,31 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-15T21:15:05 player: played "R.E.M/Reckoning/R.E.M._Reckoning_03_So. Central Rain.flac"
 2025-12-15T21:19:26 player: played "R.E.M/Automatic for the People/R.E.M._Automatic for the People_06_Sweetness Follows.flac"
 2025-12-15T21:23:16 player: played "R.E.M/Automatic for the People/R.E.M._Automatic for the People_12_Find the River.flac"
+2025-12-16T20:44:58 config: option "restore_paused" on line 20 was not recognized
+2025-12-16T22:00:13 player: played "R.E.M/Monster/R.E.M._Monster_01_What’s the Frequency Kenneth.flac"
+2025-12-16T22:03:18 player: played "R.E.M/Green/R.E.M._Green_01_Pop Song 89.flac"
+2025-12-16T22:07:44 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_02_Maps and Legends.flac"
+2025-12-16T22:11:50 player: played "R.E.M/Murmur/R.E.M._Murmur_01_Radio Free Europe.flac"
+2025-12-16T22:15:52 player: played "Radiohead/In Rainbows/Radiohead_In Rainbows_01_15 Step.flac"
+2025-12-16T22:19:12 player: played "Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_01_Losing a Whole Year.flac"
+2025-12-16T22:23:49 player: played "R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_02_These Days.flac"
+2025-12-16T22:31:38 player: played "Radiohead/In Rainbows/Radiohead_In Rainbows_02_Bodysnatchers.flac"
+2025-12-16T22:34:03 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_01_Hello Dave!.flac"
+2025-12-16T22:38:43 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_02_Like a Girl.flac"
+2025-12-16T22:44:08 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_03_One More Astronaut.flac"
+2025-12-16T22:48:13 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_04_Another Sunday.flac"
+2025-12-16T22:54:01 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_05_Three Days Old.flac"
+2025-12-16T22:59:28 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_06_Used to Be Alright.flac"
+2025-12-16T23:07:25 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_07_Shortcut to Moncton.flac"
+2025-12-16T23:12:25 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_08_Pisser.flac"
+2025-12-16T23:18:09 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_09_Raspberry.flac"
+2025-12-16T23:24:05 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_10_Songburst and Delirium.flac"
+2025-12-16T23:32:02 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_12_Earth Sky and C.flac"
+2025-12-16T23:32:41 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-16T23:35:40 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-16T23:36:03 player: played "Heartsounds/Drifter/Heartsounds_Drifter_01_Every Second Counts.m4a"
+2025-12-16T23:38:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-16T23:39:14 player: played "Heartsounds/Drifter/Heartsounds_Drifter_02_Unconditional.m4a"
+2025-12-16T23:42:08 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-16T23:42:29 player: played "Heartsounds/Drifter/Heartsounds_Drifter_03_Drifter.m4a"
+2025-12-16T23:42:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set

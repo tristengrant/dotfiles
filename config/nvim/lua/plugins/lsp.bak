@@ -212,7 +212,7 @@ return {
 			bashls = {},
 			marksman = {},
 			html = {},
-			--clangd = {},
+			clangd = {},
 			gopls = {},
 			taplo = {},
 			jsonls = {},

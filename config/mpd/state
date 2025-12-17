@@ -1,9 +1,9 @@
-sw_volume: 100
+sw_volume: 98
 audio_device_state:1:PulseAudio
 state: pause
-current: 69
-time: 94.782
-random: 1
+current: 203
+time: 153.317
+random: 0
 repeat: 0
 single: 0
 consume: 0
@@ -200,4 +200,27 @@ playlist_begin
 185:Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_14_God of Wine.flac
 186:Third Eye Blind/Blue/Third Eye Blind_Blue_01_Anything.flac
 187:Third Eye Blind/Out of the Vein/Third Eye Blind_Out of the Vein_01_Faster.flac
+188:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_02_Like a Girl.flac
+189:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_03_One More Astronaut.flac
+190:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_04_Another Sunday.flac
+191:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_05_Three Days Old.flac
+192:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_06_Used to Be Alright.flac
+193:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_07_Shortcut to Moncton.flac
+194:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_08_Pisser.flac
+195:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_09_Raspberry.flac
+196:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_10_Songburst and Delirium.flac
+197:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_11_Sense of Henry.flac
+198:I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_12_Earth Sky and C.flac
+199:Heartsounds/Drifter/Heartsounds_Drifter_01_Every Second Counts.m4a
+200:Heartsounds/Drifter/Heartsounds_Drifter_02_Unconditional.m4a
+201:Heartsounds/Drifter/Heartsounds_Drifter_03_Drifter.m4a
+202:Heartsounds/Drifter/Heartsounds_Drifter_04_I Have Nobody to Betray.m4a
+203:Heartsounds/Drifter/Heartsounds_Drifter_05_Elements.m4a
+204:Heartsounds/Drifter/Heartsounds_Drifter_06_Race to the Bottom.m4a
+205:Heartsounds/Drifter/Heartsounds_Drifter_07_Don’t Talk With Your Mouth Open.m4a
+206:Heartsounds/Drifter/Heartsounds_Drifter_08_Everything’s Going My Way.m4a
+207:Heartsounds/Drifter/Heartsounds_Drifter_09_Echo.m4a
+208:Heartsounds/Drifter/Heartsounds_Drifter_10_You Are Not Your Body.m4a
+209:Heartsounds/Drifter/Heartsounds_Drifter_11_Uncomfortably Numb.m4a
+210:Heartsounds/Drifter/Heartsounds_Drifter_12_Nothing Happens for a Reason.m4a
 playlist_end
