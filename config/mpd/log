@@ -18058,3 +18058,4 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-16T23:42:08 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 2025-12-16T23:42:29 player: played "Heartsounds/Drifter/Heartsounds_Drifter_03_Drifter.m4a"
 2025-12-16T23:42:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-17T20:00:46 config: option "restore_paused" on line 20 was not recognized
