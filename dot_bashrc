@@ -85,11 +85,8 @@ alias gac="git add . && git commit -m"
 alias pushit="git push"
 alias gpl="git pull"
 
-# Better swallow
-alias bs="better-swallow"
-
 # PATH additions
-export PATH="$HOME/Projects/scripts:$PATH"
+#export PATH="$HOME/Projects/scripts:$PATH"
 export PATH="$HOME/Applications:$PATH"
 
 # Custom functions (lightweight)
