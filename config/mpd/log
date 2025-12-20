@@ -18059,3 +18059,20 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-16T23:42:29 player: played "Heartsounds/Drifter/Heartsounds_Drifter_03_Drifter.m4a"
 2025-12-16T23:42:53 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
 2025-12-17T20:00:46 config: option "restore_paused" on line 20 was not recognized
+2025-12-19T18:04:35 config: option "restore_paused" on line 20 was not recognized
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_03_Looking Forwards and Backwards.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_08_And It Keeps Coming.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_05_Sleep Deprivation.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_07_A Hidden Moment.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_09_Close Encounters.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_10_Last Thing Left.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_06_Careful What You Wish For.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_02_Undercurrents.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_04_What Isn’t Anymore.flac
+2025-12-19T18:08:09 update: added Trent Reznor/Bird Box/Trent Reznor_Bird Box_01_Outside.flac
+2025-12-19T18:08:10 update: added The Slackers/Money is King/The Slackers_Money is King_02_The Whole World Was in on It.flac
+2025-12-19T18:08:10 update: added The Slackers/Money is King/The Slackers_Money is King_03_Hold On.flac
+2025-12-19T18:08:10 update: added The Slackers/Money is King/The Slackers_Money is King_01_Money Is King.flac
+2025-12-19T18:08:10 update: added The Slackers/Money is King/The Slackers_Money is King_04_Try to Break Me Down.flac
+2025-12-19T18:08:10 update: added The Slackers/Money is King/The Slackers_Money is King_05_No One Likes the Truth.flac
+2025-12-20T12:08:37 config: option "restore_paused" on line 20 was not recognized
