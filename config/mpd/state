@@ -1,8 +1,9 @@
-sw_volume: 98
+sw_volume: 100
 audio_device_state:1:PulseAudio
-state: stop
-current: 203
-random: 0
+state: pause
+current: 179
+time: 79.56700000000001
+random: 1
 repeat: 0
 single: 0
 consume: 0
@@ -222,4 +223,161 @@ playlist_begin
 208:Heartsounds/Drifter/Heartsounds_Drifter_10_You Are Not Your Body.m4a
 209:Heartsounds/Drifter/Heartsounds_Drifter_11_Uncomfortably Numb.m4a
 210:Heartsounds/Drifter/Heartsounds_Drifter_12_Nothing Happens for a Reason.m4a
+211:Boards of Canada/Twoism/Boards of Canada_Twoism_01_Sixtyniner.flac
+212:Boards of Canada/Twoism/Boards of Canada_Twoism_02_Oirectine.flac
+213:Boards of Canada/Twoism/Boards of Canada_Twoism_03_Iced Cooly.flac
+214:Boards of Canada/Twoism/Boards of Canada_Twoism_04_Basefree.flac
+215:Boards of Canada/Twoism/Boards of Canada_Twoism_05_Twoism.flac
+216:Boards of Canada/Twoism/Boards of Canada_Twoism_06_Seeya Later.flac
+217:Boards of Canada/Twoism/Boards of Canada_Twoism_07_Melissa Juice.flac
+218:Boards of Canada/Twoism/Boards of Canada_Twoism_08_Smokes Quantity.flac
+219:Boards of Canada/Twoism/Boards of Canada_Twoism_09_1986 Summer Fire.flac
+220:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_01_Wildlife Analysis.flac
+221:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_02_Chinook.flac
+222:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_03_Rodox Video.flac
+223:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_04_Everything You Do Is a Balloon.flac
+224:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_05_Boc Maxima.flac
+225:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_06_Roygbiv.flac
+226:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_07_Nova Scotia Robots.flac
+227:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_08_June 9th.flac
+228:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_09_Niagara.flac
+229:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_10_Skimming Stones.flac
+230:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_11_Sixtyniner.flac
+231:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_12_Red Moss.flac
+232:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_13_Concourse.flac
+233:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_14_Carcan.flac
+234:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_15_Nlogax.flac
+235:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_16_M9.flac
+236:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_17_Original Nlogax.flac
+237:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_18_Turquoise Hexagon Sun.flac
+238:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_19_Whitewater.flac
+239:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_20_One Very Important Thought.flac
+240:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_01_Wildlife Analysis.flac
+241:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_02_Chinook.flac
+242:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_03_Rodox Video.flac
+243:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_04_Everything You Do Is a Balloon.flac
+244:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_05_Boc Maxima.flac
+245:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_06_Roygbiv.flac
+246:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_07_Nova Scotia Robots.flac
+247:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_08_June 9th.flac
+248:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_09_Niagara.flac
+249:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_10_Skimming Stones.flac
+250:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_11_Sixtyniner.flac
+251:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_12_Red Moss.flac
+252:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_13_Concourse.flac
+253:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_14_Carcan.flac
+254:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_15_Nlogax.flac
+255:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_16_M9.flac
+256:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_17_Original Nlogax.flac
+257:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_18_Turquoise Hexagon Sun.flac
+258:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_19_Whitewater.flac
+259:Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_20_One Very Important Thought.flac
+260:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_01_Hi Scores.flac
+261:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_02_Turquoise Hexagon Sun.flac
+262:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_03_Nlogax.flac
+263:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_04_June 9th.flac
+264:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_05_Seeya Later.flac
+265:Boards of Canada/Hi Scores/Boards of Canada_Hi Scores_06_Everything You Do Is a Balloon.flac
+266:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_01_Wildlife Analysis.flac
+267:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_02_An Eagle in Your Mind.flac
+268:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_03_The Color of the Fire.flac
+269:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_04_Telephasic Workshop.flac
+270:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_05_Triangles and Rhombuses.flac
+271:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_06_Sixtyten.flac
+272:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_07_Turquoise Hexagon Sun.flac
+273:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_08_Kaini Industries.flac
+274:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_09_Bocuma.flac
+275:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_10_Roygbiv.flac
+276:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_11_Rue the Whirl.flac
+277:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_12_Aquarius.flac
+278:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_13_Olson.flac
+279:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_14_Pete Standing Alone.flac
+280:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_15_Smokes Quantity.flac
+281:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_16_Open the Light.flac
+282:Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_17_One Very Important Thought.flac
+283:Boards of Canada/Peel Session/Boards of Canada_Peel Session_01_Aquarius version 3.flac
+284:Boards of Canada/Peel Session/Boards of Canada_Peel Session_02_Happy Cycling.flac
+285:Boards of Canada/Peel Session/Boards of Canada_Peel Session_03_Olson version 3.flac
+286:Boards of Canada/In a Beautiful Place Out in the Country/Boards of Canada_In a Beautiful Place Out in the Country_01_Kid for Today.flac
+287:Boards of Canada/In a Beautiful Place Out in the Country/Boards of Canada_In a Beautiful Place Out in the Country_02_Amo Bishop Roden.flac
+288:Boards of Canada/In a Beautiful Place Out in the Country/Boards of Canada_In a Beautiful Place Out in the Country_03_In a Beautiful Place Out in the Country.flac
+289:Boards of Canada/In a Beautiful Place Out in the Country/Boards of Canada_In a Beautiful Place Out in the Country_04_Zoetrope.flac
+290:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_01_Ready Lets Go.flac
+291:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_02_Music Is Math.flac
+292:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_03_Beware the Friendly Stranger.flac
+293:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_04_Gyroscope.flac
+294:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_05_Dandelion.flac
+295:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_06_Sunshine Recorder.flac
+296:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_07_In the Annexe.flac
+297:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_08_Julie and Candy.flac
+298:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_09_The Smallest Weird Number.flac
+299:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_10_1969.flac
+300:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_11_Energy Warning.flac
+301:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_12_The Beach at Redpoint.flac
+302:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_13_Opening the Mouth.flac
+303:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_14_Alpha and Omega.flac
+304:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_15_I Saw Drones.flac
+305:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_16_The Devil Is in the Details.flac
+306:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_17_A Is to B as B Is to C.flac
+307:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_18_Over the Horizon Radar.flac
+308:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_19_Dawn Chorus.flac
+309:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_20_Diving Station.flac
+310:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_21_You Could Feel the Sky.flac
+311:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_22_Corsair.flac
+312:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_23_Magic Window.flac
+313:Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_24_From One Source All Things Depend.flac
+314:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_01_Into the Rainbow Vein.wv
+315:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_02_Chromakey Dreamcoat.wv
+316:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_03_Satellite Anthem Icarus.wv
+317:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_04_Peacock Tail.wv
+318:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_05_Dayvan Cowboy.wv
+319:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_06_A Moment of Clarity.wv
+320:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_07_'84 Pontiac Dream.wv
+321:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_08_Sherbet Head.wv
+322:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_09_Oscar See Through Red Eye.wv
+323:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_10_Ataronchronon.wv
+324:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_11_Hey Saturday Sun.wv
+325:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_12_Constants Are Changing.wv
+326:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_13_Slow This Bird Down.wv
+327:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_14_Tears From the Compound Eye.wv
+328:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_15_Farewell Fire.wv
+329:Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_16_Macquarie Ridge.wv
+330:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_01_Dayvan Cowboy.flac
+331:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_02_Left Side Drive.flac
+332:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_03_Heard From Telegraph Lines.flac
+333:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_04_Skyliner.flac
+334:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_05_Under the Coke Sign.flac
+335:Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_06_Dayvan Cowboy Odd Nosdam remix.flac
+336:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_01_Gemini.flac
+337:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_02_Reach for the Dead.flac
+338:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_03_White Cyclosa.flac
+339:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_04_Jacquard Causeway.flac
+340:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_05_Telepath.flac
+341:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_06_Cold Earth.flac
+342:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_07_Transmisiones Ferox.flac
+343:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_08_Sick Times.flac
+344:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_09_Collapse.flac
+345:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_10_Palace Posy.flac
+346:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_11_Split Your Infinities.flac
+347:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_12_Uritual.flac
+348:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_13_Nothing Is Real.flac
+349:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_14_Sundown.flac
+350:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_15_New Seeds.flac
+351:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_16_Come to Dust.flac
+352:Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_17_Semena Mertvykh.flac
+353:Blur/Blur/Blur_Blur_01_Beetlebum.mp3
+354:Blur/Blur/Blur_Blur_02_Song 2.mp3
+355:Blur/Blur/Blur_Blur_03_Country Sad Ballad Man.mp3
+356:Blur/Blur/Blur_Blur_04_M.O.R.mp3
+357:Blur/Blur/Blur_Blur_05_On Your Own.mp3
+358:Blur/Blur/Blur_Blur_06_Theme From Retro.mp3
+359:Blur/Blur/Blur_Blur_07_You’re So Great.mp3
+360:Blur/Blur/Blur_Blur_08_Death of a Party.mp3
+361:Blur/Blur/Blur_Blur_09_Chinese Bombs.mp3
+362:Blur/Blur/Blur_Blur_10_I’m Just a Killer for Your Love.mp3
+363:Blur/Blur/Blur_Blur_11_Look Inside America.mp3
+364:Blur/Blur/Blur_Blur_12_Strange News From Another Star.mp3
+365:Blur/Blur/Blur_Blur_13_Movin’ On.mp3
+366:Blur/Blur/Blur_Blur_14_Essex Dogs.mp3
+367:Blur/Blur/Blur_Blur_15_Dancehall.mp3
 playlist_end
