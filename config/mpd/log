@@ -18113,3 +18113,191 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2025-12-24T13:31:04 config: option "restore_paused" on line 20 was not recognized
 2025-12-24T13:41:07 exception: Not playing
 2025-12-24T13:45:58 player: played "Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_10_Palace Posy.flac"
+2025-12-24T17:33:14 player: played "Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_08_Burning Man.flac"
+2025-12-24T19:33:21 player: played "R.E.M/Monster/R.E.M._Monster_01_What’s the Frequency Kenneth.flac"
+2025-12-25T00:15:28 player: played "The Weakerthans/Left and Leaving/The Weakerthans_Left and Leaving_01_Everything Must Go!.mp3"
+2025-12-26T21:05:09 config: option "restore_paused" on line 20 was not recognized
+2025-12-26T21:25:00 config: option "restore_paused" on line 20 was not recognized
+2025-12-26T21:55:28 exception: Not playing
+2025-12-26T22:00:17 player: played "The Tragically Hip/Road Apples/The Tragically Hip_Road Apples_01_Little Bones.flac"
+2025-12-26T22:03:48 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2025-12-26T22:07:25 player: played "R.E.M/Green/R.E.M._Green_06_The Wrong Child.flac"
+2025-12-26T22:10:42 player: played "R.E.M/Document/R.E.M._Document_07_The One I Love.flac"
+2025-12-26T22:26:41 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_08_When the Weight Comes Down.flac"
+2025-12-26T22:35:26 player: played "Blur/Blur/Blur_Blur_08_Death of a Party.mp3"
+2025-12-26T22:39:25 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_03_Oh! Ellin.mp3"
+2025-12-27T04:39:39 player: played "The Tragically Hip/World Container/The Tragically Hip_World Container_01_Yer Not the Ocean.flac"
+2025-12-27T13:31:41 config: option "restore_paused" on line 20 was not recognized
+2025-12-27T13:36:15 player: played "The Tragically Hip/Fully Completely/The Tragically Hip_Fully Completely_01-08_Fully Completely.flac"
+2025-12-27T13:39:23 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_03_Reconstruction Site.mp3"
+2025-12-27T14:03:45 player: played "The Weakerthans/Fallow/The Weakerthans_Fallow_02_Diagnosis.mp3"
+2025-12-27T14:04:38 config: option "restore_paused" on line 20 was not recognized
+2025-12-27T15:17:06 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-27T15:25:04 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_04_Everything You Do Is a Balloon.flac"
+2025-12-27T15:28:58 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_05_She Didn’t Know.flac"
+2025-12-27T15:32:33 player: played "R.E.M/New Adventures in Hi‐Fi/R.E.M._New Adventures in Hi‐Fi_07_Departure.flac"
+2025-12-27T15:35:51 player: played "R.E.M/Murmur/R.E.M._Murmur_12_West of the Fields.flac"
+2025-12-27T15:41:06 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_11_Sherpa.flac"
+2025-12-27T15:49:13 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_01_Save Your Generation.mp3"
+2025-12-27T15:53:16 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_05_Chemistry.mp3"
+2025-12-27T15:56:35 player: played "R.E.M/Out of Time/R.E.M._Out of Time_04_Near Wild Heaven.flac"
+2025-12-27T17:39:59 player: played "The Tragically Hip/In Violet Light/The Tragically Hip_In Violet Light_01_Are You Ready.flac"
+2025-12-27T17:46:38 player: played "Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_09_Good for You.flac"
+2025-12-27T17:52:34 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_10_Songburst and Delirium.flac"
+2025-12-27T20:12:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-27T20:24:10 player: played "The Tragically Hip/In Violet Light/The Tragically Hip_In Violet Light_03_The Darkest One.flac"
+2025-12-27T20:26:36 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_01_Manifest.mp3"
+2025-12-27T20:30:16 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_06_700 ft. Ceiling.flac"
+2025-12-27T20:31:07 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_09_Niagara.flac"
+2025-12-27T23:47:50 player: played "The Tragically Hip/World Container/The Tragically Hip_World Container_03_In View.flac"
+2025-12-28T17:52:46 config: option "restore_paused" on line 20 was not recognized
+2025-12-28T17:57:13 player: played "R.E.M/Green/R.E.M._Green_07_Orange Crush.flac"
+2025-12-28T18:02:42 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_04_Psalm for the Elks Lodge Last Call.mp3"
+2025-12-28T20:07:50 player: played "Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_07_Turquoise Hexagon Sun.flac"
+2025-12-28T20:07:54 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-28T20:13:30 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_09_Auctioneer Another Engine.flac"
+2025-12-28T20:16:47 player: played "R.E.M/Document/R.E.M._Document_07_The One I Love.flac"
+2025-12-28T20:17:09 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-28T20:17:11 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-28T20:19:18 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_18_Boxcar.mp3"
+2025-12-28T20:20:19 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-28T20:23:41 player: played "R.E.M/Reckoning/R.E.M._Reckoning_03_So. Central Rain.flac"
+2025-12-28T20:25:25 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_01_Manifest.mp3"
+2025-12-28T20:32:14 player: played "Gob/Ass Seen on TV/Gob_Ass Seen on TV_03_What the Hell.mp3"
+2025-12-28T20:32:33 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-28T20:38:25 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_05_Three Days Old.flac"
+2025-12-28T20:43:39 player: played "R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_02_These Days.flac"
+2025-12-28T20:46:45 player: played "The Tragically Hip/In Between Evolution/The Tragically Hip_In Between Evolution_05_It Can’t Be Nashville Every Night.flac"
+2025-12-28T20:51:53 player: played "R.E.M/Out of Time/R.E.M._Out of Time_03_Low.flac"
+2025-12-28T20:54:19 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_11_Naked.flac"
+2025-12-28T20:59:36 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_11_Sense of Henry.flac"
+2025-12-28T21:03:42 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_10_Another Midnight.flac"
+2025-12-28T21:11:09 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_11_Bully.mp3"
+2025-12-28T21:17:32 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_11_Sluttering May 4th.mp3"
+2025-12-28T21:19:16 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_05_Boc Maxima.flac"
+2025-12-28T21:23:52 player: played "The Tragically Hip/World Container/The Tragically Hip_World Container_06_The Kids Don’t Get It.flac"
+2025-12-28T21:27:13 player: played "The Tragically Hip/Fully Completely/The Tragically Hip_Fully Completely_01-05_Lionized.flac"
+2025-12-28T21:32:43 player: played "Radiohead/In Rainbows/Radiohead_In Rainbows_01_15 Step.flac"
+2025-12-28T21:35:55 player: played "The Weakerthans/Left and Leaving/The Weakerthans_Left and Leaving_06_Without Mythologies.mp3"
+2025-12-28T23:39:40 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_03_One More Astronaut.flac"
+2025-12-28T23:45:17 player: played "R.E.M/Up/R.E.M._Up_03_Suspicion.flac"
+2025-12-28T23:51:22 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2025-12-28T23:55:51 player: played "R.E.M/Out of Time/R.E.M._Out of Time_02_Losing My Religion.flac"
+2025-12-29T01:04:56 player: played "The Tragically Hip/In Between Evolution/The Tragically Hip_In Between Evolution_04_Vaccination Scar.flac"
+2025-12-29T01:10:07 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_02_Like a Girl.flac"
+2025-12-29T01:25:51 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_02_I’ll Believe in You or I’ll Be Leaving You Tonight.flac"
+2025-12-29T01:28:17 player: played "R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_15_Toys in the Attic.flac"
+2025-12-29T01:33:11 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_06_700 ft. Ceiling.flac"
+2025-12-29T01:37:16 player: played "I Mother Earth/Scenery and Fish/I Mother Earth_Scenery and Fish_04_Another Sunday.flac"
+2025-12-29T01:38:53 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_10_Burying Your Past.flac"
+2025-12-29T01:44:03 player: played "The Tragically Hip/In Violet Light/The Tragically Hip_In Violet Light_01_Are You Ready.flac"
+2025-12-29T01:48:11 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_04_Life and How to Live It.flac"
+2025-12-29T01:57:02 player: played "The Weakerthans/Left and Leaving/The Weakerthans_Left and Leaving_01_Everything Must Go!.mp3"
+2025-12-29T02:09:45 player: played "The Tragically Hip/Phantom Power/The Tragically Hip_Phantom Power_04_Bobcaygeon.flac"
+2025-12-29T02:13:25 player: played "R.E.M/Up/R.E.M._Up_11_Daysleeper.flac"
+2025-12-29T02:16:05 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_06_Ming Tran.mp3"
+2025-12-29T02:19:36 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-29T02:22:05 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_02_On These Days….flac"
+2025-12-29T02:31:15 player: played "Boards of Canada/Music Has the Right to Children/Boards of Canada_Music Has the Right to Children_01_Wildlife Analysis.flac"
+2025-12-29T02:36:42 player: played "The Tragically Hip/Road Apples/The Tragically Hip_Road Apples_03_Cordelia.flac"
+2025-12-29T02:40:25 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_05_She Didn’t Know.flac"
+2025-12-29T02:47:08 player: played "Radiohead/Kid A/Radiohead_Kid A_01_Everything in Its Right Place.flac"
+2025-12-29T02:50:52 player: played "The Tragically Hip/Man Machine Poem/The Tragically Hip_Man Machine Poem_06_Great Soul.mp3"
+2025-12-29T02:55:21 player: played "The Tragically Hip/In Violet Light/The Tragically Hip_In Violet Light_10_The Dire Wolf.flac"
+2025-12-29T03:01:27 player: played "Boards of Canada/Trans Canada Highway/Boards of Canada_Trans Canada Highway_04_Skyliner.flac"
+2025-12-29T03:06:15 player: played "R.E.M/Document/R.E.M._Document_01_Finest Worksong.flac"
+2025-12-29T03:07:44 player: played "Gob/Ass Seen on TV/Gob_Ass Seen on TV_04_Hooray! Hes Gay.mp3"
+2025-12-29T03:08:43 player: played "Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_01_Ready Lets Go.flac"
+2025-12-29T03:11:16 player: played "R.E.M/Document/R.E.M._Document_05_Strange.flac"
+2025-12-29T03:52:50 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_03_New Orleans Is Sinking.flac"
+2025-12-29T15:44:33 config: option "restore_paused" on line 20 was not recognized
+2025-12-29T15:46:44 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_03_New Orleans Is Sinking.flac"
+2025-12-29T16:48:41 player: played "Smash Mouth/Fush Yu Mang/Smash Mouth_Fush Yu Mang_01_Flo.flac"
+2025-12-29T16:56:27 player: played "Smash Mouth/Fush Yu Mang/Smash Mouth_Fush Yu Mang_01_Flo.flac"
+2025-12-29T17:06:40 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_07_When Life Gets Boring.mp3"
+2025-12-29T17:11:13 player: played "The Tragically Hip/Fully Completely/The Tragically Hip_Fully Completely_02-05_Pigeon Camera.flac"
+2025-12-29T17:14:29 player: played "R.E.M/Reckoning/R.E.M._Reckoning_03_So. Central Rain.flac"
+2025-12-29T17:20:19 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_07_Reign on Your Parade.flac"
+2025-12-29T17:24:10 player: played "The Tragically Hip/World Container/The Tragically Hip_World Container_01_Yer Not the Ocean.flac"
+2025-12-29T17:24:46 player: played "Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_11_Energy Warning.flac"
+2025-12-29T17:31:11 player: played "Smash Mouth/Fush Yu Mang/Smash Mouth_Fush Yu Mang_03_Walkin’ on the Sun.flac"
+2025-12-29T17:33:39 player: played "The Tragically Hip/Now for Plan A/The Tragically Hip_Now for Plan A_03_The Lookahead.flac"
+2025-12-29T17:35:46 player: played "The Offspring/Conspiracy of One/The Offspring_Conspiracy of One_10_All Along.flac"
+2025-12-29T17:35:56 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-29T17:40:37 player: played "The Killjoys/Starry/The Killjoys_Starry_08_Anyday Now.mp3"
+2025-12-29T17:45:42 player: played "Gob/Ass Seen on TV/Gob_Ass Seen on TV_04_Hooray! Hes Gay.mp3"
+2025-12-29T17:50:34 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_08_Suds.flac"
+2025-12-29T17:56:18 player: played "The Tragically Hip/Music @ Work/The Tragically Hip_Music @ Work_02_Tiger the Lion.flac"
+2025-12-29T18:00:18 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_01_Manifest.mp3"
+2025-12-29T19:45:24 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_06_Our Retired Explorer Dines With Michel Foucault in Paris 1961.mp3"
+2025-12-29T19:49:29 player: played "Smash Mouth/Astro Lounge/Smash Mouth_Astro Lounge_12_Defeat You.flac"
+2025-12-29T19:52:04 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_06_Ming Tran.mp3"
+2025-12-29T19:57:23 player: played "Radiohead/In Rainbows/Radiohead_In Rainbows_07_Reckoner.flac"
+2025-12-29T19:59:46 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_06_Roygbiv.flac"
+2025-12-29T20:05:08 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_11_Sixtyniner.flac"
+2025-12-29T20:05:34 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-29T20:05:40 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2025-12-29T20:09:10 player: played "R.E.M/Document/R.E.M._Document_07_The One I Love.flac"
+2025-12-29T20:13:30 player: played "The Lawrence Arms/Metropole/The Lawrence Arms_Metropole_09_The YMCA Down the Street From the Clinic.mp3"
+2025-12-30T00:39:34 player: played "The Offspring/Smash/The Offspring_Smash_06_Something to Believe In.mp3"
+2025-12-30T12:52:31 config: option "restore_paused" on line 20 was not recognized
+2025-12-30T14:01:43 exception: Not playing
+2025-12-30T14:53:55 player: played "Blur/Blur/Blur_Blur_08_Death of a Party.mp3"
+2025-12-30T14:58:58 player: played "The Tragically Hip/Music @ Work/The Tragically Hip_Music @ Work_13_The Bear.flac"
+2025-12-30T15:03:05 player: played "The Killjoys/Gimme Five/The Killjoys_Gimme Five_02_Like I Care.mp3"
+2025-12-30T15:07:05 player: played "The Tragically Hip/We Are the Same/The Tragically Hip_We Are the Same_02_Honey Please.flac"
+2025-12-30T15:12:41 player: played "The Tragically Hip/Phantom Power/The Tragically Hip_Phantom Power_07_Fireworks.flac"
+2025-12-30T19:24:42 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_06_The Mend.flac"
+2025-12-31T15:04:46 config: option "restore_paused" on line 20 was not recognized
+2025-12-31T15:04:51 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_06_The Mend.flac"
+2026-01-01T15:10:52 config: option "restore_paused" on line 20 was not recognized
+2026-01-02T13:38:15 config: option "restore_paused" on line 20 was not recognized
+2026-01-02T16:00:30 player: played "Blur/Blur/Blur_Blur_01_Beetlebum.mp3"
+2026-01-02T16:06:53 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_01_Blow at High Dough.flac"
+2026-01-03T02:26:19 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_07_Time’s Arrow.mp3"
+2026-01-03T14:43:53 config: option "restore_paused" on line 20 was not recognized
+2026-01-04T00:36:23 player: played "The Weakerthans/Reconstruction Site/The Weakerthans_Reconstruction Site_07_Time’s Arrow.mp3"
+2026-01-05T16:01:13 config: option "restore_paused" on line 20 was not recognized
+2026-01-05T17:20:06 exception: Not playing
+2026-01-05T17:25:55 player: played "Boards of Canada/The Campfire Headphase/Boards of Canada_The Campfire Headphase_02_Chromakey Dreamcoat.wv"
+2026-01-05T17:29:26 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_03_Driver 8.flac"
+2026-01-05T17:31:38 player: played "The Offspring/Smash/The Offspring_Smash_11_What Happened to You.mp3"
+2026-01-05T17:38:04 player: played "Boards of Canada/Twoism/Boards of Canada_Twoism_04_Basefree.flac"
+2026-01-05T17:40:31 player: played "R.E.M/Lifes Rich Pageant/R.E.M._Lifes Rich Pageant_15_Toys in the Attic.flac"
+2026-01-05T17:43:07 player: played "Gob/How Far Shallow Takes You/Gob_How Far Shallow Takes You_17_All We Are.flac"
+2026-01-05T17:46:47 player: played "Smash Mouth/Astro Lounge/Smash Mouth_Astro Lounge_06_Satellite.flac"
+2026-01-05T17:49:45 player: played "The Offspring/The Offspring/The Offspring_The Offspring_02_Elders.flac"
+2026-01-05T17:52:51 player: played "Weezer/Weezer (blue album)/Weezer_Weezer_01-06_Surf Wax America.flac"
+2026-01-05T17:57:32 player: played "The Tragically Hip/Road Apples/The Tragically Hip_Road Apples_07_Bring It All Back.flac"
+2026-01-05T17:59:11 player: played "The Offspring/Conspiracy of One/The Offspring_Conspiracy of One_10_All Along.flac"
+2026-01-05T22:46:05 player: played "The Tragically Hip/Now for Plan A/The Tragically Hip_Now for Plan A_06_Now for Plan A.flac"
+2026-01-06T17:07:35 config: option "restore_paused" on line 20 was not recognized
+2026-01-07T20:07:11 config: option "restore_paused" on line 20 was not recognized
+2026-01-07T21:20:44 config: option "restore_paused" on line 20 was not recognized
+2026-01-07T21:36:15 config: option "restore_paused" on line 20 was not recognized
+2026-01-07T22:08:44 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_03_New Orleans Is Sinking.flac"
+2026-01-07T22:13:01 player: played "The Offspring/Ignition/The Offspring_Ignition_06_Dirty Magic.mp3"
+2026-01-07T23:10:19 player: played "The Offspring/Splinter/The Offspring_Splinter_09_Lightning Rod.flac"
+2026-01-07T23:13:32 player: played "Boards of Canada/Geogaddi/Boards of Canada_Geogaddi_23_Magic Window.flac"
+2026-01-07T23:17:14 player: played "The Tragically Hip/Up to Here/The Tragically Hip_Up to Here_11_Opiated.flac"
+2026-01-07T23:19:49 player: played "Weezer/Weezer (green album)/Weezer_Weezer_05_Crab.flac"
+2026-01-08T00:31:09 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-08T00:31:10 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-08T00:51:11 player: played "The Tragically Hip/In Between Evolution/The Tragically Hip_In Between Evolution_01_Heaven Is a Better Place Today.flac"
+2026-01-08T02:34:14 player: played "The Offspring/Smash/The Offspring_Smash_05_Genocide.mp3"
+2026-01-08T17:01:43 config: option "restore_paused" on line 20 was not recognized
+2026-01-08T17:01:46 player: played "The Offspring/Smash/The Offspring_Smash_05_Genocide.mp3"
+2026-01-08T17:13:57 exception: Not playing
+2026-01-08T17:17:40 player: played "Blur/Blur/Blur_Blur_04_M.O.R.mp3"
+2026-01-08T17:18:02 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-08T17:22:24 player: played "Boards of Canada/Twoism/Boards of Canada_Twoism_09_1986 Summer Fire.flac"
+2026-01-08T17:25:24 player: played "The Offspring/Ignition/The Offspring_Ignition_11_Nothing From Something.mp3"
+2026-01-08T17:38:55 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_08_Lurker II Dark Son of Night.mp3"
+2026-01-08T17:42:34 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_08_Lurker II Dark Son of Night.mp3"
+2026-01-08T17:45:44 player: played "The Tragically Hip/Now for Plan A/The Tragically Hip_Now for Plan A_09_Take Forever.flac"
+2026-01-08T17:49:30 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_07_Green Grow the Rushes.flac"
+2026-01-08T17:52:25 player: played "The Tragically Hip/In Between Evolution/The Tragically Hip_In Between Evolution_05_It Can’t Be Nashville Every Night.flac"
+2026-01-08T17:57:56 player: played "R.E.M/Monster/R.E.M._Monster_08_Bang and Blame.flac"
+2026-01-09T00:28:06 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_15_Into You Like a Train.mp3"
+2026-01-11T01:17:45 config: option "restore_paused" on line 20 was not recognized
+2026-01-11T01:17:48 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_15_Into You Like a Train.mp3"

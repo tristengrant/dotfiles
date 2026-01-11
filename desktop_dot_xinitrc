@@ -36,6 +36,7 @@ dunst &
 mpd ~/.config/mpd/mpd.conf &
 picom --config ~/.config/picom/picom.conf &
 sb_mpdup &
+ollama serve &
 
 # Force disable screen blanking
 sleep 0.5
