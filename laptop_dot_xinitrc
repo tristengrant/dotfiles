@@ -47,5 +47,7 @@ xset s off
 xset s noblank
 xset -dpms
 
+xset -b
+
 # Start window manager
 exec dwm
