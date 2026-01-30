@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Nsxiv
+Exec=/usr/local/bin/nsxiv %f
+Icon=nsxiv
+Categories=Graphics;Viewer;
+MimeType=image/jpeg;image/png;image/gif;image/webp;image/bmp;image/tiff;
+Terminal=false
