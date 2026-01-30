@@ -18712,3 +18712,7 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-01-28T18:19:58 player: played "Weezer/Weezer (green album)/Weezer_Weezer_05_Crab.flac"
 2026-01-28T18:26:11 player: played "Moist/Creature/Moist_Creature_12_Gasoline.flac"
 2026-01-28T18:29:24 player: played "Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_03_White Cyclosa.flac"
+2026-01-29T21:05:54 config: option "restore_paused" on line 20 was not recognized
+2026-01-29T21:15:36 player: played "The Tragically Hip/Road Apples/The Tragically Hip_Road Apples_01_Little Bones.flac"
+2026-01-29T21:20:27 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_03_Ahead by a Century.flac"
+2026-01-29T21:23:51 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_05_Flamenco.flac"
