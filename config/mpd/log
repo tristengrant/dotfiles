@@ -18717,3 +18717,26 @@ Warning: Xing stream size off by more than 1%, fuzzy seeking may be even more fu
 2026-01-29T21:20:27 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_03_Ahead by a Century.flac"
 2026-01-29T21:23:51 player: played "The Tragically Hip/Trouble at the Henhouse/The Tragically Hip_Trouble at the Henhouse_05_Flamenco.flac"
 2026-01-30T09:12:13 config: option "restore_paused" on line 20 was not recognized
+2026-01-30T19:09:07 player: played "The Tragically Hip/Fully Completely/The Tragically Hip_Fully Completely_01-04_Pigeon Camera.flac"
+2026-01-30T19:55:45 player: played "The Tragically Hip/Day for Night/The Tragically Hip_Day for Night_01_Grace Too.flac"
+2026-01-30T20:00:42 player: played "Third Eye Blind/Third Eye Blind/Third Eye Blind_Third Eye Blind_12_The Background.flac"
+2026-01-30T20:03:09 player: played "The Offspring/Smash/The Offspring_Smash_02_Nitro Youth Energy.mp3"
+2026-01-30T20:11:06 player: played "The Tragically Hip/In Between Evolution/The Tragically Hip_In Between Evolution_12_Are We Family.flac"
+2026-01-30T20:14:41 player: played "Gob/Foot in Mouth Disease/Gob_Foot in Mouth Disease_11_Bully.mp3"
+2026-01-30T20:18:56 player: played "Moist/Silver/Moist_Silver_04_Silver.flac"
+2026-01-30T20:49:41 player: played "R.E.M/Reckoning/R.E.M._Reckoning_05_Time After Time Annelise.flac"
+2026-01-30T20:52:26 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_06_Roygbiv.flac"
+2026-01-30T20:56:33 player: played "R.E.M/Document/R.E.M._Document_06_It’s the End of the World as We Know It and I Feel Fine.flac"
+2026-01-30T20:56:45 exception: Not playing
+2026-01-30T20:57:43 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-30T20:58:13 ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+2026-01-30T21:01:26 player: played "Heartsounds/Drifter/Heartsounds_Drifter_06_Race to the Bottom.m4a"
+2026-01-30T21:07:05 player: played "Boards of Canada/Tomorrow’s Harvest/Boards of Canada_Tomorrow’s Harvest_15_New Seeds.flac"
+2026-01-30T21:07:57 player: played "Boards of Canada/Boc Maxima/Boards of Canada_Boc Maxima_09_Niagara.flac"
+2026-01-30T21:09:51 player: played "Jawbreaker/Dear You/Jawbreaker_Dear You_18_Boxcar.mp3"
+2026-01-30T21:12:48 player: played "Weezer/Weezer (green album)/Weezer_Weezer_08_Simple Pages.flac"
+2026-01-30T21:16:06 player: played "R.E.M/Fables of the Reconstruction/R.E.M._Fables of the Reconstruction_08_Kohoutek.flac"
+2026-01-30T21:22:07 player: played "Blur/Blur/Blur_Blur_07_You’re So Great.mp3"
+2026-01-30T21:28:23 player: played "Boards of Canada/In a Beautiful Place Out in the Country/Boards of Canada_In a Beautiful Place Out in the Country_02_Amo Bishop Roden.flac"
+2026-01-30T21:59:58 player: played "The Offspring/Americana/The Offspring_Americana_02_Have You Ever.flac"
+2026-01-30T22:00:43 config: option "restore_paused" on line 20 was not recognized

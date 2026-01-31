@@ -7,6 +7,7 @@ return {
 			yaml = { "yamlfmt" },
 			c = {},
 			html = {},
+			diff = {},
 			-- javascript = { "prettierd", "prettier", stop_after_first = true },
 			-- typescript = { "prettierd", "prettier", stop_after_first = true },
 		},
@@ -18,7 +19,6 @@ return {
 			local skip_dirs = {
 				"/dwm/",
 				"/dmenu/",
-				"/tabbed/",
 				"/slock/",
 				"/dwmblocks-async/",
 				"/suckless/",
