@@ -1,0 +1,7 @@
+-- ~/.config/nvim/lua/plugins/vim-hugo.lua
+return {
+	"phelipetls/vim-hugo",
+	config = function()
+		-- optional configuration for vim-hugo
+	end,
+}

@@ -7,6 +7,18 @@
           "shell"
         ],
         "path": "~/.config/nvim/snippets/bash.json"
+      },
+      {
+        "language": [
+          "markdown"
+        ],
+        "path": "~/.config/nvim/snippets/md.json"
+      },
+      {
+        "language": [
+          "hugo"
+        ],
+        "path": "~/.config/nvim/snippets/hugo.json"
       }
     ]
   }

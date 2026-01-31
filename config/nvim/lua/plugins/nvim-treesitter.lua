@@ -23,8 +23,8 @@ return {
 				"yaml",
 				"markdown",
 			},
-			auto_install = false,
-			sync_install = false,
+			auto_install = true,
+			sync_install = true,
 			highlight = { enable = true },
 			indent = { enable = true },
 			incremental_selection = {
