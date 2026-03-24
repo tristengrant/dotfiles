@@ -28,7 +28,7 @@ shopt -s globstar
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # Environment
-export EDITOR="nvim"
+export EDITOR="micro"
 export TERMINAL="st"
 
 # Enable better completion
@@ -68,10 +68,6 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias ..="cd .."
 alias ...="cd ../.."
-
-# NeoVim
-alias vim="nvim"
-alias vi="nvim"
 
 # Suckless Patching
 alias dwm-patch="patch -p1 < "
