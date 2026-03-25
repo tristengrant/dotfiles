@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=VCV Rack
+Name=VCV Rack Pro 2
 Comment=Modular Synthesis
-Icon=/opt/vcvrack/res/icon.png
-Exec="pw-jack /usr/bin/vcvrack" %F
+Icon=/home/tristen/.local/share/VCV/Rack2Pro/res/icon.png
+Exec="pw-jack /home/tristen/.local/share/VCV/Rack2Pro/Rack" %F
 Terminal=false
 Categories=Audio;Music
 Keywords=Music
