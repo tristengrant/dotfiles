@@ -1,0 +1,2 @@
+#!/bin/sh
+cd /home/tristen/.local/share/VCV/Rack2Pro && exec pw-jack ./Rack
